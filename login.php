@@ -1,15 +1,15 @@
 <?php
-include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
+include('includes/login_inc.php'); // linking ma3 el php code ely fl includes file
 
 ?>
 <!DOCTYPE html>
 <html lang="
 " dir="ltr">
-                                                        
+
 <head>
     <meta charset="utf-8">
     <title>Login</title>
-    <link rel="stylesheet" href="assets/signup.css"> <!-- hena by linked styling bt3 sign up -->
+    <link rel="stylesheet" href="assets/login_styles.css"> <!-- hena by linked styling bt3 sign up -->
     <link rel="stylesheet" href="assets/navbar.css"> <!-- hena by linked el navbar-->
 </head>
 

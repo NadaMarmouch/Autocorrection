@@ -16,7 +16,7 @@ if (isset($_POST['signup']))
   // ================== Username: Existance validation ===============
 
     $name = $_POST['name'];
-    $sql  = "SELECT * FROM user WHERE full_name = '$name';";
+    $sql  = "SELECT * FROM user WHERE fname = '$name';";
 
     $results = mysqli_query($conn,$sql) ;
     if (mysqli_num_rows($results) > 0 ) {

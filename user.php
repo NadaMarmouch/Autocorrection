@@ -2,21 +2,20 @@
 require_once('configure/dbclass.php');
 class user
 {
-   public $f_name;
-   public $l_name;
+   public $name;
+   public $lname;
    public $e_mail;
    public $password;
-   public $faculty;
 	
    public function adduser()
    {
       $dbvariable =new DB();
-      $sql="INSERT into student (fname,lname,email,password,faculty) values('$_POST[fname]','$_POST[lname]','$_POST[email]','$_POST[password1]','$_POST[faculty]')";
+      $sql="INSERT into user (fname,lname,email,password) values('$_POST[name]','$_POST[lname]','$_POST[email]','$_POST[password1]')";
       mysqli_query($dbvariable->connectDB(),$sql);  
    }
    public function login($email,$password){
       $dbvariable =new DB();
-      $sql=" SELECT * from student where email='$email' and password='$password'";
+      $sql=" SELECT * from user where email='$email' and password='$password'";
       $result=mysqli_query($dbvariable->connectDB(),$sql);  
       $row=mysqli_fetch_array($result);
       if(mysqli_num_rows($result)==1)
@@ -26,9 +25,8 @@ class user
             $_SESSION['id'] = $row['id'];
             $_SESSION['email']=$email;
             $_SESSION['password']=$password;
-            $_SESSION['fname']=$row['fname'];
+            $_SESSION['name']=$row['fname'];
             $_SESSION['lname']=$row['lname'];
-            $_SESSION['faculty']=$row['faculty'];
             header("Location:homepage.php");
          }
          else

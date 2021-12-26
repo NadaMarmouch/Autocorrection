@@ -14,9 +14,8 @@
 <?php include("templates/navbar.php")  ?> 
 
   <div class="fixed-bg bg-1">
-    <h1 class="main-text">Auto_Correction for Subjective Question</h1>
-    <p class="sub-text">CORRECTA</p>
-    <p class="sub-text">Misr international unviversity (MIU)</p>
+    <h1 class="main-text">CORRECTA </h1>
+    <p class="sub-text">Auto_Correction for Subjective Question</p>
   </div>
   <div class="container">
         <div class="history_of_Company">
@@ -34,4 +33,7 @@
     </div>
     </div>
 
+    </div>
+    <?php include("Contact_us.php")  ?> <!-- linking the footer-->
+       <?php include("includes/Contact_us_inc.php")  ?> <!-- linking the footer-->
 </main>

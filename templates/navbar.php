@@ -9,7 +9,7 @@
     <li>
     <a href="BankQuestions.php">BankQuestions</a>
     </li>
-    <li class="us"> <a href='#contact'>Contact Us</a> </li> 
+    <li class="us"> <a href='#contact'>Contact Us</a> </li>
   <li> 
    <a href="Logininstructor.php">Instructor</a>
   </li>
