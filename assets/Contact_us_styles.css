@@ -6,7 +6,7 @@
     color: white;
     font-size: 35px;
     line-height: 10px;
-    margin-left: 529px;
+    margin-left: 28px;
     ;
 }
 
@@ -18,7 +18,7 @@
     height: 7px;
     background: #c0a756;
     margin: 40px auto;
-    margin-right: 399px;
+    margin-right: 661px;
     margin-top: 31px;
 }
 
@@ -31,7 +31,7 @@
     padding: 23 15px;
     overflow: hidden;
     font-family: "montserrat", sans-serif;
-    background-image: url("../pictures/8.jpg");
+    background-image: url("../pictures/9.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -42,7 +42,7 @@
 
 .contact-us-form-text {
     display: block;
-    width: 66%;
+    width: 63%;
     box-sizing: border-box;
     margin: auto;
     margin-right: 272px;
