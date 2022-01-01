@@ -5,6 +5,7 @@
     <title>Courses</title>
 <link rel="stylesheet" href="assets/navbar.css">
 <link rel="stylesheet" href="assets/courses_styles.css">
+<link rel="stylesheet" href="assets/home_style.css">
 <link rel="stylesheet" href="assets/Contact_us_styles.css"><!-- linking the styles-->
     <script type="text/javascript" src="js/Contact_us_js.js" defer> </script>
 
@@ -14,15 +15,25 @@
 
 <body>
 
+<div class="fixed-bg bg-2-1">
+    <h1>COURSES</h1>
 
-<button class="button">Computer Science</button>
-<button class="button">Alsun</button>
-<button class="button">Business Adminstration</button>
-<button class="button">Density</button>
-<button class="button">Pharmacy</button>
-<button class="button">Mass Communication</button>
-<button class="button">Architecture</button>
-<button class="button">Electronics</button>
+  <img src="pictures/10.jpg" alt="" class="img1">
+  <img src="pictures/11.jpg" alt="" class="img1">
+  <img src="pictures/13.jpg" alt="" class="img1">
+  <img src="pictures/12.jpg" alt="" class="img1">
+  <img src="pictures/14.jpg" alt="" class="img1">
+  <img src="pictures/15.jpg" alt="" class="img1">
+  <img src="pictures/16.jpg" alt="" class="img1">
+  
+  <br><br><br>
+  
+
+
+ 
+  </div>
+
+
 </body>
 </html>
 <?php include("Contact_us.php")  ?> <!-- linking the footer-->

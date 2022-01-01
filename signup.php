@@ -16,7 +16,10 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
 <body>
     <?php include('templates/navbar.php')?> <!-- link bl navbar-->
 
-    <h1>Sign-Up</h1>
+    <div class="container">
+  <section id="content">
+    <form action="">
+      <h1>signup Form</h1>
 
     <!-- sign-up form -->
     <form id="validate" class="" action="signup.php" method="POST">
@@ -32,25 +35,26 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
         </div>
 
 
-        <input class="styles" type="email" name="email" value="<?php echo $email ?>" placeholder="Enter your email..">
+        <input class="styles" type="text" name="email" value="<?php echo $email ?>" placeholder="Enter your email..">
         <div class="erroRS">
             <p> <?php echo $errors['email'] ?> </p>
         </div>
 
-
-
-        <input class="styles" type="password" name="password1" value="" placeholder="Enter your password..">
-        <div class="danger">
-            <p> </p>
-        </div>
-
-        <input class="styles" type="password" name="password2" value="" placeholder="Re-type your password..">
+        <input type="password" placeholder="Password" required="" id="password" />
+        <div  class="erroRS">
+      </div>
+     
+      <input type="password" placeholder=" Re-type your password.." required="" id="password" />
         <div class="erroRS">
             <p> </p>
         </div>
 
+        <div>
+        <input type="submit" value="Register" />
+        <a href="login.php">Login Page</a>
+        
+      </div>
 
-        <input type="submit" name="signup" value="Register">
     </form>
 
 

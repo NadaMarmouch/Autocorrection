@@ -16,22 +16,29 @@ include('includes/login_inc.php'); // linking ma3 el php code ely fl includes fi
 <body>
     <?php include('templates/navbar.php')?> <!-- link bl navbar-->
 
-    <h1>Login</h1>
-
-    <!-- sign-up form -->
-    <form id="validate" class=""  method="POST">
-
-        <input class="styles" type="email" name="email" value="<?php echo $email ?>" required placeholder="Enter your email..">
-        <div class="erroRS">
-            <p> <?php echo $errors['email'] ?> </p>
-        </div>
-        <input type="hidden" name="email-v" value="">
-
-
-        <input class="styles" type="password" name="password" placeholder="Enter your password.." required>
-       <br>
-        <input type="submit" name="Login" value="Login">
-    </form>
+<div class="container">
+  <section id="content">
+    <form action="">
+      <h1>Login Form</h1>
+      <div>
+        <input type="text" placeholder="Username" required="" id="username" />
+      </div>
+      <div>
+        <input type="password" placeholder="Password" required="" id="password" />
+      </div>
+      <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      <div>
+        <input type="submit" value="Log in" />
+        <a href="#">Lost your password?</a>
+        <a href="signup.php">Register</a>
+        
+      </div>
+    </form><!-- form -->
+    
+  </section><!-- content -->
+</div><!-- container -->
 
 
     <?php 
