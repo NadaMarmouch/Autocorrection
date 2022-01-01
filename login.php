@@ -21,10 +21,10 @@ include('includes/login_inc.php'); // linking ma3 el php code ely fl includes fi
     <form action="">
       <h1>Login Form</h1>
       <div>
-        <input type="text" placeholder="Username" required="" id="username" />
+        <input type="text"required placeholder="Username" required="" id="username" />
       </div>
       <div>
-        <input type="password" placeholder="Password" required="" id="password" />
+        <input type="password" required placeholder="Password" required="" id="password" />
       </div>
       <a href="#" class="google btn"><i class="fa fa-google fa-fw">
           </i> Login with Google+

@@ -24,18 +24,18 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
     <!-- sign-up form -->
     <form id="validate" class="" action="signup.php" method="POST">
 
-        <input class="styles" type="text" name="name" value="<?php echo $name ?>" placeholder="Enter your First name..">
+        <input class="styles" type="text" name="name" value="<?php echo $name ?>"required placeholder="Enter your First name..">
         <div class="erroRS">
             <p> <?php echo $errors['fname'] ?> </p>
         </div>
 
-        <input class="styles" type="text" name="lname" value="<?php echo $lname ?>" placeholder="Enter your Last name..">
+        <input class="styles" type="text" name="lname" value="<?php echo $lname ?>"required placeholder="Enter your Last name..">
         <div class="erroRS">
             <p> <?php echo $errors['lname'] ?> </p>
         </div>
 
 
-        <input class="styles" type="text" name="email" value="<?php echo $email ?>" placeholder="Enter your email..">
+        <input class="styles" type="text" name="email" value="<?php echo $email ?>" required placeholder="Enter your email..">
         <div class="erroRS">
             <p> <?php echo $errors['email'] ?> </p>
         </div>
