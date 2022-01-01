@@ -14,10 +14,8 @@
    <a href="Logininstructor.php">Instructor</a>
   </li>
   <li> 
-   <a href="Login.php">Login</a>
+   <a href="Login.php">Join Us</a>
   </li>
-  <li> 
-   <a href="signup.php">Signup</a>
-  </li>
+  
   </ul>
 </nav>

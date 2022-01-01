@@ -20,15 +20,16 @@
   </div>
   <div class="container">
         <div class="history_of_Company">
-        <img src="pictures\3.png" alt="" class="pic1">
+        <img src="pictures\18.jpg" alt="" class="pic1">
         <div class="p2">
           <h2 class="h2"> AutoCorrection for Subjective Question</h2><br>
-          Grading short answer questions has been a pain recently.This webcite major goal is to create an automatic correction model for the topic question, which will make the process of checking answer essay questions easier. Students can take tests online, and the system
-          will calculate the outcomes and provide an administrator with a record <br><br><br><br><br><br> <br><br><br><br><br><br>
+          Grading short answer questions has been a pain recently. This webcite's major goal is to create an automatic correction model for the topic question, which will make the process of checking answer essay questions easier. Students can take tests online,
+           and the system will calculate the outcomes and provide an administrator with a record.<br><br><br><br><br><br> <br><br><br><br><br><br>
         </div>
         <div class="part2">
 <?php include 'templates/slider.php'; ?>
-          <p class="t1">• hnshr7 mslan el system by3mal eh.
+          <p class="t1">• Our system is designed to correct subjective and essay questions automatically. 
+            It acts as a co-assistant to the professor while correcting these types of questions.
              </p> <br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </div>
@@ -100,6 +101,7 @@
             <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">BankQuestions</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
             
           </ul>
         </div>
