@@ -101,7 +101,7 @@
             <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">BankQuestions</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
             
           </ul>
         </div>

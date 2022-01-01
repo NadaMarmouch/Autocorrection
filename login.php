@@ -31,7 +31,7 @@ include('includes/login_inc.php'); // linking ma3 el php code ely fl includes fi
         </a>
       <div>
         <input type="submit" value="Log in" />
-        <a href="#">Lost your password?</a>
+        <a href="#">Forget password?</a>
         <a href="signup.php">Register</a>
         
       </div>
