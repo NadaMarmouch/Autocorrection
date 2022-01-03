@@ -21,9 +21,12 @@
                       <h4>Mariam Yasser</h4>
                       <p class="text-secondary mb-1">Instructor</p>
                       <p class="text-muted font-size-sm">Data Engineer</p>
-                      <button class="btn btn-primary">Save</button>
-                      <button class="btn btn-outline-primary">Edit</button>
-                    </div>
+                      <div>
+                      <input type="submit" value="Save" />
+                       <a href="Editprofile.php">Edit</a>
+                       
+                           </div>
+                      
                   </div>
                 </div>
               </div>
