@@ -18,7 +18,7 @@
                   <div class="d-flex flex-column align-items-center text-center">
                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
                     <div class="mt-3">
-                      <h4>Mariam Yasser</h4>
+                      <h4>Ahmed Elbeheiry</h4>
                       <p class="text-secondary mb-1">Instructor</p>
                       <p class="text-muted font-size-sm">Data Engineer</p>
                       <div>
