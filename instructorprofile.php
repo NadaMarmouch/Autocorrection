@@ -39,7 +39,7 @@
                       <h6 class="mb-0">Full Name</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      Mariam Yasser
+                     Ahmed Aly
                     </div>
                   </div>
                   <hr>
@@ -48,7 +48,7 @@
                       <h6 class="mb-0">UserName</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                     mariamelbeheiry
+                     Ahmed Elbeheiry
                     </div>
                   </div>
                   <hr>
@@ -57,7 +57,7 @@
                       <h6 class="mb-0">Email</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                     mariamelbeheiry@gmail.com
+                     ahmedlbeheiry@gmail.com
                     </div>
                   </div>
                   
@@ -77,7 +77,7 @@
                       <h6 class="mb-0">Gender</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      Female
+                      Male
                     </div>
                   </div>
                   <hr>
