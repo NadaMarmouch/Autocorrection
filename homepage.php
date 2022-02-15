@@ -100,7 +100,7 @@
           <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="homepage.php">Home</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Question Bank</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="questionbank.php">Question Bank</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
             
           </ul>

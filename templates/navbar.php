@@ -7,7 +7,7 @@
      <a href= "courses.php">Courses</a> 
     </li>
     <li>
-    <a href="BankQuestions.php">Question Bank</a>
+    <a href="questionbank.php">Question Bank</a>
     </li>
     <li class="us"> <a href='#contact'>Contact Us</a> </li>
   <li> 
