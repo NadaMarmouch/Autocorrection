@@ -11,6 +11,7 @@ include('includes/login_inc.php'); // linking ma3 el php code ely fl includes fi
     <title>Login</title>
     <link rel="stylesheet" href="assets/login_styles.css"> <!-- hena by linked styling bt3 sign up -->
     <link rel="stylesheet" href="assets/navbar.css"> <!-- hena by linked el navbar-->
+    
 </head>
 
 <body>
