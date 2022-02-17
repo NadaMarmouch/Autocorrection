@@ -22,7 +22,7 @@
   <img src="pictures/11.jpg" alt="" class="img1">
   <img src="pictures/13.jpg" alt="" class="img1">
   <img src="pictures/12.jpg" alt="" class="img1">
-  <img src="pictures/14.jpg" alt="" class="img1">
+  <img src="pictures/14.jfif" alt="" class="img1">
   <img src="pictures/15.jpg" alt="" class="img1">
   <img src="pictures/16.jpg" alt="" class="img1">
   

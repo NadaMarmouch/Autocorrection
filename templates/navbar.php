@@ -42,10 +42,10 @@
     <a href="homepage.php" class="home">Home</a> 
     </li>
     <li>
-     <a href= "Courses.php">Courses</a> 
+     <a href= "courses.php">Courses</a> 
     </li>
     <li>
-    <a href="BankQuestions.php">BankQuestions</a>
+    <a href="questionbank.php">Question Bank</a>
     </li>
     <li class="us"> <a href='#contact'>Contact Us</a> </li>
   <li> 

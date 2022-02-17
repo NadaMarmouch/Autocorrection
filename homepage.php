@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>Home</title>
     <link rel="stylesheet" href="assets/home_style.css">
-<link rel="stylesheet" href="assets/navbar.css">
-<link rel="stylesheet" href="assets/style.css">
-<link rel="stylesheet" href="assets/slider_styles.css">
-<link rel="stylesheet" href="assets/Contact_us_styles.css"><!-- linking the styles-->
+    <link rel="stylesheet" href="assets/navbar.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/slider_styles.css">
+    <link rel="stylesheet" href="assets/Contact_us_styles.css"><!-- linking the styles-->
     <script type="text/javascript" src="js/Contact_us_js.js" defer> </script>
 
     
@@ -22,9 +22,9 @@
         <div class="history_of_Company">
         <img src="pictures\18.jpg" alt="" class="pic1">
         <div class="p2">
-          <h2 class="h2"> AutoCorrection for Subjective Question</h2><br>
+          <h2 class="h2"> AutoCorrection for Subjective Questions</h2><br>
           Grading short answer questions has been a pain recently. This webcite's major goal is to create an automatic correction model for the topic question, which will make the process of checking answer essay questions easier. Students can take tests online,
-           and the system will calculate the outcomes and provide an administrator with a record.<br><br><br><br><br><br> <br><br><br><br><br><br>
+          and the system will calculate the outcomes and provide an administrator with a record.<br><br><br><br><br><br> <br><br><br><br><br><br>
         </div>
         <div class="part2">
 <?php include 'templates/slider.php'; ?>
@@ -88,7 +88,7 @@
 
         <div class="col-lg-3 col-md-6 footer-contact">
           <h3>Learning</h3>
-          <p>14 Ahmed Helmy street
+          <p>14 Ahmed Helmy Street
               <br>
             <strong>Phone:</strong> 01130567523<br>
             <strong>Email:</strong> correcta@gmail.com<br>
@@ -98,9 +98,9 @@
         <div class="col-lg-2 col-md-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="homepage.php">Home</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">BankQuestions</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="questionbank.php">Question Bank</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
             
           </ul>

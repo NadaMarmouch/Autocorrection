@@ -1,5 +1,5 @@
 <?php
-$conn =   mysqli_connect("localhost","root", "","Smart_Company");
+$conn =   mysqli_connect("localhost","root", "","autocorrection");
  // ================ Essential Vairbales ===============
  $name = $email = $subject = $message = $phone = "" ;
  $name_v = $email_v  = $subject_v = $message_v =  $phone_v = false;
