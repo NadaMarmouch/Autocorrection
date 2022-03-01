@@ -16,22 +16,26 @@
               <div class="card">
                 <div class="card-body">
                   <div class="d-flex flex-column align-items-center text-center">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="200">
                     <div class="mt-3">
                       <h4>Ahmed Elbeheiry</h4>
                       <p class="text-secondary mb-1">Instructor</p>
                       <p class="text-muted font-size-sm">Data Engineer</p>
+                      <p class="text-muted font-size-sm">Misr international University</p>
                       <div>
                       <input type="submit" value="Save" />
-                       <a href="Editprofile.php">Edit</a>
+                       <a href="#Edit">Edit</a>
+                       <a href="questionbank.php">AddQuestion</a>
                        
                            </div>
                       
                   </div>
                 </div>
               </div>
-             
-            <div class="col-md-8">
+              </div>
+        
+            <div class="col-md-8" id="Edit">
+             <h3 class="w3-center">Edit</h3>
               <div class="card mb-3">
                 <div class="card-body">
                   <div class="row">
@@ -60,9 +64,18 @@
                      ahmedlbeheiry@gmail.com
                     </div>
                   </div>
-                  
                   <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">University</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                     Misr international University.
+                    </div>
+                  </div>
+                 
 
+                  <hr>
                   <div class="row">
                     <div class="col-sm-3">
                       <h6 class="mb-0">Phone</h6>

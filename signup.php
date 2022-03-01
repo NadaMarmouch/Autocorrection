@@ -18,7 +18,7 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
 
     <div class="container">
   <section id="content">
-    <form action="">
+    <form action="homepage">
       <h1>signup Form</h1>
 
     <!-- sign-up form -->
@@ -40,18 +40,27 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
             <p> <?php echo $errors['email'] ?> </p>
         </div>
 
+        <input class="styles" type="text" name="phone" value="<?php echo $email ?>" required placeholder="Enter your phonenumber..">
+        <div class="erroRS">
+            <p> <?php echo $errors['phone'] ?> </p>
+        </div>
+
         <input type="password" placeholder="Password" required="" id="password" />
         <div  class="erroRS">
-      </div>
-     
+      </div> 
+     <br>
       <input type="password" placeholder=" Re-type your password.." required="" id="password" />
         <div class="erroRS">
             <p> </p>
         </div>
 
+        <input style ="width:30%;" class="styles" type="date" name="Age" ><br>
+
+        
+        
         <div>
-        <input type="submit" value="Register" />
-        <a href="login.php">Login Page</a>
+        <input type="submit"  class="ghost" href="signup.php" />	<a href="login.php">Login Page</a>
+     
         
       </div>
 

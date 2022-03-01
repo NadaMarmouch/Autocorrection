@@ -2,7 +2,7 @@
 //DB Connection
 
 // ================ Essential Vairbales ===============
-$errors = ["fname" => "", "lname" =>"", "email" => ""];
+$errors = ["fname" => "", "lname" =>"","phone" =>"", "email" => ""];
 $name = $lname=$email = $password = $hashedPass =  "" ;
 $name_v =$lname_v= $email_v  = $password_v = false;
 
@@ -66,6 +66,24 @@ if (isset($_POST['signup']))
       // echo "<br>Valid Email";
       $email_v = true ;
     }
+
+    // ================== phone: Existance validation ===============
+
+    $phone = $_POST['phone'];
+    $sql  = "SELECT * FROM user WHERE phonenumber = '$email';";
+
+    $results = mysqli_query($conn,$sql) ;
+    if (mysqli_num_rows($results) > 0 ) {
+      // Error
+      $errors['phone'] = "phone Already Exists!";
+
+    }
+    else {
+      // ussername does no exist --> can be created!
+      // echo "<br>Valid Email";
+      $phone = true ;
+    }
+
 
 
   // ================== Password ===============
