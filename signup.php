@@ -59,7 +59,7 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
         
         
         <div>
-        <input type="submit"  class="ghost" href="signup.php" />	<a href="login.php">Login Page</a>
+        <button type="button" onclick='location.href="homepage.php"'>Sign Up</button>
      
         
       </div>

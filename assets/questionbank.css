@@ -2,7 +2,7 @@
         width: 100%;
         overflow: hidden;
         font-family: "montserrat", sans-serif;
-        background-image: url("pictures/32.png");
+        background-image: url("pictures/28.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -16,7 +16,7 @@
         overflow-y: scroll;
         overflow-y: scroll;
         transform: translate(156%, 13%);
-        background-color: #d1e5ee;
+        background-color: #F0E8D7;
         width: 38%;
         height: 80%;
         text-align: center;
@@ -34,16 +34,16 @@
     .register input[type="text"] {
         padding: 20px;
         border: none;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #44713D;
         background: transparent;
         outline: none;
         height: 10%;
         width: 80%;
-        color: white;
+        color: #44713D;
     }
     
     span {
-        color: #97C6E3;
+        color: #35611C;
         font-size: 30px;
         cursor: pointer;
     }
@@ -61,7 +61,7 @@
     }
     
     .register input[type="submit"]:hover {
-        background-color: #B0BBC5;
+        background-color: #35611C;
         color: black;
         transition-duration: 0.5s;
     }

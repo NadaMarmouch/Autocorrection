@@ -38,9 +38,10 @@ include('includes/login_inc.php'); // linking ma3 el php code ely fl includes fi
 		<form action="homepage.php">
 			<h1>Sign in</h1>
 			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			<a href="#"><i class="fa fa-linkedin-square"></i>
+			<a href="#"><i class="fa fa-github"></i>
+			<a href="#"><i class="fab fa-google-plus-g"></i>
+			
 			</div>
 			<span>or use your account</span><br>
       <input class="styles" type="email" name="email" value="<?php echo $email ?>" required placeholder="Enter your email..">

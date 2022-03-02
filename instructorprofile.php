@@ -35,7 +35,7 @@
               </div>
         
             <div class="col-md-8" id="Edit">
-             <h3 class="w3-center">Edit</h3>
+             <h3 class="w3-center"></h3>
               <div class="card mb-3">
                 <div class="card-body">
                   <div class="row">
