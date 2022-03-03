@@ -14,7 +14,7 @@
       <i class="fa fa-bars"></i>
     </a>
     <a href="test.php" class="w3-bar-item w3-button">HOME</a>
-    <a href="BankQuestions.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-question-circle"></i> Bank Questions</a>
+    <a href="questionbank.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-question-circle"></i> Bank Questions</a>
     <a href="#Courses" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Courses</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="Login.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Join us</a>
