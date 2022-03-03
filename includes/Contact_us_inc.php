@@ -16,20 +16,11 @@ $conn =   mysqli_connect("localhost","root", "","autocorrection");
        $email_v = true ;
       }
 
-  if (!empty($_POST['subject-v'])){ // if non empty --> hidden input field's value ('valid' or '')
-      $subject = $_POST['subject'];
-      $subject_v = true ;
-    }
-
 
   if (!empty($_POST['message-v'])){ // if non empty --> hidden input field's value ('valid' or '')
       $message = $_POST['message'];
       $message_v = true ;
     }
 
-  if (!empty($_POST['phone-v'])){ // if non empty --> hidden input field's value ('valid' or '')
-    $phone = $_POST['phone_number'];
-    $phone_v = true ;
-    }
 }
  ?>
