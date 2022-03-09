@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Home</title>
+<title>Quizez</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="assets/navbar.css">
 <link rel="stylesheet" href="assets/Quizez.css">
@@ -13,7 +13,6 @@
     <meta name="keywords" content="​CORRECTA Auto Correction for subjective questions, INTUITIVE">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Home</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="assets/courses.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>

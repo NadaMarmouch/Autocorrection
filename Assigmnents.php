@@ -1,7 +1,6 @@
-
 <!DOCTYPE html>
 <html>
-<title>Courses</title>
+<title>Assigmnent</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="assets/navbar.css">
 <link rel="stylesheet" href="assets/courses.css">
@@ -35,35 +34,36 @@
 </div>
 
 <!-- Container (About Section) -->
-<section class="u-clearfix u-section-1" id="sec-787a">
-      <div class="u-align-left u-clearfix u-sheet u-sheet-1">
+<section class="u-clearfix u-section-1" id="sec-7af3">
+      <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">
           <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">Announcements</a>
         </h2><span class="u-file-icon u-icon u-icon-1"><img src="pictures/39.png" alt=""></span>
-        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-1">
-          <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-2"><img src="pictures/38.png" alt=""></span>
-            <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-2">
-              <div class="u-container-layout">
-              <a href="Quizez.php">
-                <h2 class="u-text u-text-default u-text-2">Quizez</h2>
-                </a>
-              </div>
+        <div class="u-align-center u-form u-form-1">
+          <form action="#" method="POST" class="u-clearfix u-form-spacing-32 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 36px;">
+            <input type="hidden" id="siteId" name="siteId" value="288606452">
+            <input type="hidden" id="pageId" name="pageId" value="272987793">
+            <div class="u-form-group u-form-name">
+              <label for="name-6b51" class="u-label">Assigmnent title</label>
+              <input type="text" placeholder="Title" id="name-6b51" name="Title" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white u-input-1" required="">
             </div>
-          </div>
-        </div>
-        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-3">
-          <div class="u-container-layout u-container-layout-3"><span class="u-file-icon u-icon u-icon-3"><img src="pictures/38.png" alt=""></span>
-            <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-4">
-              <div class="u-container-layout">
-              <a href="Assigmnents.php">
-                <h2 class="u-text u-text-default u-text-3">Assigmnent</h2>
-                </a>
-              </div>
+            <div class="u-form-group u-form-message">
+              <label for="message-6b51" class="u-label">Answer</label>
+              <textarea placeholder="Enter your Answer" rows="10" cols="50" id="message-6b51" name="Answer" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white u-input-2" required=""></textarea>
             </div>
-          </div>
+            <div class="u-align-right u-form-group u-form-submit">
+              <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-1 u-btn-2">Next</a>
+              <input type="submit" value="submit" class="u-form-control-hidden">
+            </div>
+            <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+            <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+            <input type="hidden" value="" name="recaptchaResponse">
+          </form>
         </div>
       </div>
     </section>
+    
+    
 
     
 
