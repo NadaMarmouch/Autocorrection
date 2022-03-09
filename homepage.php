@@ -131,25 +131,25 @@ body, html {
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
    <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-    <a href="questionbank.php">
+    <a href="coursesdetails.php">
       <img src="pictures\10.jpg"style="width:100%"  class="w3-hover-opacity" alt="Computer Science">
       </a>
     </div>
 
     <div class="w3-col m3">
-    <a href="questionbank.php">
+    <a href="coursesdetails.php">
       <img src="pictures\11.jpg" style="width:100%" class="w3-hover-opacity" alt="Business Administration">
       </a>
     </div>
 
     <div class="w3-col m3">
-    <a href="questionbank.php">
+    <a href="coursesdetails.php">
       <img src="pictures\12.jpg" style="width:100%"  class="w3-hover-opacity" alt="Alsun">
       </a>
     </div>
 
     <div class="w3-col m3">
-    <a href="questionbank.php">
+    <a href="coursesdetails.php">
       <img src="pictures\13.jpg" style="width:100%"  class="w3-hover-opacity" alt="Pharamacy">
       </a>
     </div>
@@ -157,25 +157,25 @@ body, html {
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-    <a href="questionbank.php">
+    <a href="coursesdetails.php">
       <img src="pictures\16.jpg" style="width:100%" class="w3-hover-opacity" alt="Architecture">
       </a>
     </div>
 
     <div class="w3-col m3">
-    <a href="questionbank.php">
+    <a href="coursesdetails.php">
       <img src="pictures\15.jpg" style="width:100%"  class="w3-hover-opacity" alt="Electronics">
       </a>
     </div>
 
     <div class="w3-col m3">
-    <a href="questionbank.php">
+    <a href="coursesdetails.php">
       <img src="pictures\14.jpg" style="width:100%"  class="w3-hover-opacity" alt="Mass Communication">
       </a>
     </div>
 
     <div class="w3-col m3">
-    <a href="questionbank.php">
+    <a href="coursesdetails.php">
       <img src="pictures\25.jpg" style="width:100%"  class="w3-hover-opacity" alt="Dentistry">
       </a>
     </div>
