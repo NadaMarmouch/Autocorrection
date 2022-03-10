@@ -137,7 +137,7 @@ body, html {
     </div>
 
     <div class="w3-col m3">
-    <a href="coursesdetails.php">
+    <a href="bussines.php">
     <h5 class="u-text u-text-11">Business Administration</h5>
       <img src="pictures\11.jpg" style="width:100%" class="w3-hover-opacity" alt="Business Administration">
       </a>
@@ -151,7 +151,7 @@ body, html {
     </div>
 
     <div class="w3-col m3">
-    <a href="coursesdetails.php">
+    <a href="pharamacy.php">
     <h5 class="u-text u-text-11">Pharamacy</h5>
       <img src="pictures\13.jpg" style="width:100%"  class="w3-hover-opacity" alt="Pharamacy">
       </a>
