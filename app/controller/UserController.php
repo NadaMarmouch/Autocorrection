@@ -30,6 +30,12 @@ class UserController extends Controller{
 			$UserModel->Login($UserModel->getEmail(),$UserModel->getPassword());
 		}	
 	}
+	public function View_instructor(){
+		$UserModel= new User();
+		$UserView= new UserView($this,$this->model);
+		echo $UserView->instructor_profile();
+		
+	}
 	
 }
 ?>

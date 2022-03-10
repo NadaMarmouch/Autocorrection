@@ -73,9 +73,13 @@ $this->dob= "";
         
         $result=mysqli_query($conn,$sql);
 
-
-        if(mysqli_num_rows($result)==1){
+        $row=mysqli_fetch_array($result);
+        if(mysqli_num_rows($result)==1&& $row['Type-id']==1){
                 header("Location:homepage.php");
+        
+            }
+       else if(mysqli_num_rows($result)==1&& $row['Type-id']==2){
+                header("Location:instructorprofile.php");
         
             }
         else{

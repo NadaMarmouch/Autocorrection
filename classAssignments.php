@@ -2,7 +2,7 @@
 class Assignment{
 public function addQuestion($question){
     include 'configure/dbclass.php';
-    mysqli_query($conn, "INSERT INTO addQuestions (question) VALUES ('$question')");
+    mysqli_query($conn, "INSERT INTO questions (text) VALUES ('$question')");
     echo '<script>alert("Done, Questions have been added successfully")</script>';
     header("Refresh: 0.1");    
     return;
