@@ -3,6 +3,7 @@
 <title>Home</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="assets/navbar.css">
+<link rel="stylesheet" href="assets/homecourses.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -121,35 +122,37 @@ body, html {
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">Courses</span>
   </div>
-</div>
-
+</div>    
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="Courses">
   <h3 class="w3-center">Courses</h3>
-  <p class="w3-center"><em>Each Course Have Specific Questions.<br> </p>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
    <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-    <a href="coursesdetails.php">
+    <div class="w3-col m3" >
+    <a href="css_major.php">
+    <h5 class="u-text u-text-11"> Computer Science</h5>
       <img src="pictures\10.jpg"style="width:100%"  class="w3-hover-opacity" alt="Computer Science">
       </a>
     </div>
 
     <div class="w3-col m3">
     <a href="coursesdetails.php">
+    <h5 class="u-text u-text-11">Business Administration</h5>
       <img src="pictures\11.jpg" style="width:100%" class="w3-hover-opacity" alt="Business Administration">
       </a>
     </div>
 
     <div class="w3-col m3">
-    <a href="coursesdetails.php">
+    <a href="coursesdetails.php"style="height: 191px">
+    <h5 class="u-text u-text-11">Alsun</h5>
       <img src="pictures\12.jpg" style="width:100%"  class="w3-hover-opacity" alt="Alsun">
       </a>
     </div>
 
     <div class="w3-col m3">
     <a href="coursesdetails.php">
+    <h5 class="u-text u-text-11">Pharamacy</h5>
       <img src="pictures\13.jpg" style="width:100%"  class="w3-hover-opacity" alt="Pharamacy">
       </a>
     </div>
@@ -158,24 +161,28 @@ body, html {
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
     <a href="coursesdetails.php">
+    <h5 class="u-text u-text-11">Architecture</h5>
       <img src="pictures\16.jpg" style="width:100%" class="w3-hover-opacity" alt="Architecture">
       </a>
     </div>
 
     <div class="w3-col m3">
     <a href="coursesdetails.php">
+    <h5 class="u-text u-text-11">Electronics</h5>
       <img src="pictures\15.jpg" style="width:100%"  class="w3-hover-opacity" alt="Electronics">
       </a>
     </div>
 
     <div class="w3-col m3">
     <a href="coursesdetails.php">
+    <h5 class="u-text u-text-11">Mass Communication</h5>
       <img src="pictures\14.jpg" style="width:100%"  class="w3-hover-opacity" alt="Mass Communication">
       </a>
     </div>
 
     <div class="w3-col m3">
     <a href="coursesdetails.php">
+    <h5 class="u-text u-text-11">Dentistry</h5>
       <img src="pictures\25.jpg" style="width:100%"  class="w3-hover-opacity" alt="Dentistry">
       </a>
     </div>

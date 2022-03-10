@@ -3,7 +3,7 @@
 <title>Quizez</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="assets/navbar.css">
-<link rel="stylesheet" href="assets/Quizez.css">
+<link rel="stylesheet" href="assets/courses.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -34,29 +34,31 @@
 </div>
 
 <!-- Container (About Section) -->
-<section class="u-clearfix u-section-1" id="sec-7a83">
+<section class="u-clearfix u-section-1" id="sec-7af3">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-container-style u-grey-5 u-group u-group-1">
-          <div class="u-container-layout u-container-layout-1">
-            <div class="u-form u-form-1">
-              <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
-                <input type="hidden" id="siteId" name="siteId" value="288606452">
-                <input type="hidden" id="pageId" name="pageId" value="9429101">
-                <div class="u-form-group u-form-message">
-                  <label for="message-f449" class="u-custom-font u-font-montserrat u-label u-text-grey-90 u-label-1">Question?</label>
-                  <textarea placeholder="Enter your answer" rows="8" cols="50" id="message-f449" name="Question?" class="u-border-1 u-border-custom-color-1 u-input u-input-rectangle u-text-custom-color-1 u-white u-input-1" required=""></textarea>
-                </div>
-                <div class="u-align-left u-form-group u-form-submit">
-                  <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-1 u-btn-1">Next</a>
-                  <input type="submit" value="submit" class="u-form-control-hidden">
-                </div>
-                <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
-                <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-                <input type="hidden" value="" name="recaptchaResponse">
-              </form>
+        <h2 class="u-text u-text-default u-text-1">
+          <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">If you have anyTrouble?</a>
+        </h2><span class="u-file-icon u-icon u-icon-1"><img src="pictures/40.png" alt=""></span>
+        <div class="u-align-center u-form u-form-1">
+          <form action="#" method="POST" class="u-clearfix u-form-spacing-32 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 36px;">
+            <input type="hidden" id="siteId" name="siteId" value="288606452">
+            <input type="hidden" id="pageId" name="pageId" value="272987793">
+            <div class="u-form-group u-form-name">
+              <label for="name-6b51" class="u-label">Question title</label>
+              <input type="text" placeholder="Title" id="name-6b51" name="Title" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white u-input-1" required="">
             </div>
-            <a href="https://nicepage.com/website-builder" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-palette-1-light-2 u-radius-2 u-btn-2">Finish</a>
-          </div>
+            <div class="u-form-group u-form-message">
+              <label for="message-6b51" class="u-label">Answer</label>
+              <textarea placeholder="Enter your Answer" rows="10" cols="50" id="message-6b51" name="Answer" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white u-input-2" required=""></textarea>
+            </div>
+            <div class="u-align-right u-form-group u-form-submit">
+              <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-1 u-btn-2">Next</a>
+              <input type="submit" value="submit" class="u-form-control-hidden">
+            </div>
+            <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+            <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+            <input type="hidden" value="" name="recaptchaResponse">
+          </form>
         </div>
       </div>
     </section>
