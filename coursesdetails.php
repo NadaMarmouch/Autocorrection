@@ -44,7 +44,7 @@
           <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-2"><img src="pictures/38.png" alt=""></span>
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-2">
               <div class="u-container-layout">
-              <a href="questionbank.php">
+              <a href="Quizez.php">
                 <h2 class="u-text u-text-default u-text-2">Quizez</h2>
                 </a>
               </div>
@@ -55,7 +55,7 @@
           <div class="u-container-layout u-container-layout-3"><span class="u-file-icon u-icon u-icon-3"><img src="pictures/38.png" alt=""></span>
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-4">
               <div class="u-container-layout">
-              <a href="questionbank.php">
+              <a href="Assigmnents.php">
                 <h2 class="u-text u-text-default u-text-3">Assigmnent</h2>
                 </a>
               </div>

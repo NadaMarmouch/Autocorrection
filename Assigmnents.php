@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Quizez</title>
+<title>Assigmnent</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="assets/navbar.css">
 <link rel="stylesheet" href="assets/courses.css">
@@ -37,14 +37,14 @@
 <section class="u-clearfix u-section-1" id="sec-7af3">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">
-          <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">If you have any Trouble?</a>
-        </h2><span class="u-file-icon u-icon u-icon-1"><img src="pictures/40.png" alt=""></span>
+          <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">Announcements</a>
+        </h2><span class="u-file-icon u-icon u-icon-1"><img src="pictures/39.png" alt=""></span>
         <div class="u-align-center u-form u-form-1">
           <form action="#" method="POST" class="u-clearfix u-form-spacing-32 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 36px;">
             <input type="hidden" id="siteId" name="siteId" value="288606452">
             <input type="hidden" id="pageId" name="pageId" value="272987793">
             <div class="u-form-group u-form-name">
-              <label for="name-6b51" class="u-label">Question title</label>
+              <label for="name-6b51" class="u-label">Assigmnent title</label>
               <input type="text" placeholder="Title" id="name-6b51" name="Title" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white u-input-1" required="">
             </div>
             <div class="u-form-group u-form-message">
@@ -62,6 +62,8 @@
         </div>
       </div>
     </section>
+    
+    
 
     
 
