@@ -37,27 +37,30 @@
 <section class="u-align-center u-clearfix u-section-1" id="sec-be4f">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">
-          <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">If you have anyTrouble?<br>
+          <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883"> Announcements for Student's<br>
           </a>
-        </h2><span class="u-file-icon u-icon u-icon-1"><img src="pictures/40.png" alt=""></span>
+        </h2><span class="u-file-icon u-icon u-icon-1"><img src="images/134808.png" alt=""></span>
         <div class="u-table u-table-responsive u-table-1">
           <table class="u-table-entity u-table-entity-1">
             <colgroup>
-              <col width="25%">
-              <col width="25%">
-              <col width="25%">
-              <col width="25%">
+              <col width="19.9%">
+              <col width="20.4%">
+              <col width="19.9%">
+              <col width="19.9%">
+              <col width="19.9%">
             </colgroup>
             <thead class="u-black u-table-header u-table-header-1">
               <tr style="height: 50px;">
-                <th class="u-align-center u-border-1 u-border-black u-custom-color-1 u-table-cell u-table-cell-1">Course Name</th>
-                <th class="u-align-center u-border-1 u-border-black u-custom-color-1 u-table-cell u-table-cell-2">Course Name</th>
-                <th class="u-align-center u-border-1 u-border-black u-custom-color-1 u-table-cell u-table-cell-3">Instructor Name</th>
-                <th class="u-align-center u-border-1 u-border-black u-custom-color-1 u-table-cell u-table-cell-4">Score</th>
+                <th class="u-align-center u-border-1 u-border-black u-custom-color-1 u-table-cell u-table-cell-1">Number of Question</th>
+                <th class="u-align-center u-border-1 u-border-black u-custom-color-1 u-table-cell u-table-cell-2">Student Name</th>
+                <th class="u-align-center u-border-1 u-border-black u-custom-color-1 u-table-cell u-table-cell-3">Answer</th>
+                <th class="u-align-center u-border-1 u-border-black u-custom-color-1 u-table-cell u-table-cell-4">Feedback</th>
+                <th class="u-align-center u-border-1 u-border-black u-custom-color-1 u-table-cell u-table-cell-5">Score</th>
               </tr>
             </thead>
             <tbody class="u-table-body">
               <tr style="height: 44px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell"></td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell"></td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell"></td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell"></td>

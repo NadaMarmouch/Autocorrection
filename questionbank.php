@@ -1,9 +1,10 @@
 <style>
    
 <?php include "assets/questionbank.css";
-include "assets/navbar.css"
+include "assets/navbar.css";
 ?> 
 </style>
+
 <body onload='teacherMenu()'>
 <div class="cc"><?php include "templates/navbar.php"?></div>
 <div class="register">

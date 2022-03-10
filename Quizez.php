@@ -37,7 +37,7 @@
 <section class="u-clearfix u-section-1" id="sec-7af3">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">
-          <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">If you have anyTrouble?</a>
+          <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">If you have any Trouble?</a>
         </h2><span class="u-file-icon u-icon u-icon-1"><img src="pictures/40.png" alt=""></span>
         <div class="u-align-center u-form u-form-1">
           <form action="#" method="POST" class="u-clearfix u-form-spacing-32 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 36px;">
