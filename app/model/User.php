@@ -76,6 +76,7 @@ $this->dob= "";
         $result=mysqli_query($conn,$sql);
 
         $row=mysqli_fetch_array($result);
+        $_SESSION["type"]=$row['Type-id'];
         if(mysqli_num_rows($result)==1&& $row['Type-id']==1){
                 header("Location:homepage.php");
         

@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
@@ -13,12 +17,19 @@
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
+    <?php if($_SESSION['type']==1){?>
     <a href="homepage.php" class="w3-bar-item w3-button">HOME</a>
-    <a href="questionbank.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-question-circle"></i> Bank Questions</a>
-    <a href="#Courses" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Courses</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="Login.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Join us</a>
+    <a href="courses.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Courses</a>
     <a href="Score.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-graduation-cap"></i> Transcript</a>
+    <?php }
+    if($_SESSION['type']==2){
+    ?>
+    <a href="questionbank.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-question-circle"></i> Bank Questions</a>
+    <a href="instructor_feedback.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Feedback</a>
+    <a href="instructorprofile.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Profile</a>
+    <?php }?>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="control.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Join us</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>

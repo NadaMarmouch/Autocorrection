@@ -45,6 +45,9 @@
               <div class="u-container-layout u-container-layout-1">
                 <ul class="u-custom-list u-text u-text-2">
                   <li>
+                  <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">Software</h2>
+                </a>
                     <div class="u-list-icon">
                       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">–</div>
                     </div>Lecture 1: introduction
@@ -117,6 +120,9 @@
               <div class="u-container-layout u-container-layout-2">
                 <ul class="u-custom-list u-text u-text-3">
                   <li>
+                  <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">Data Engenieering</h2>
+                </a>
                     <div class="u-list-icon">
                       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">–</div>
                     </div>Lecture 1: introduction
@@ -179,6 +185,9 @@
               <div class="u-container-layout u-container-layout-3">
                 <ul class="u-custom-list u-text u-text-4">
                   <li>
+                  <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">Theory of Computation</h2>
+                </a>
                     <div class="u-list-icon">
                       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">–</div>
                     </div>Lecture 1: introduction
@@ -242,6 +251,9 @@ Automata<br>
               <div class="u-container-layout u-container-layout-4">
                 <ul class="u-custom-list u-text u-text-5">
                   <li>
+                  <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">Networks</h2>
+                </a>
                     <div class="u-list-icon">
                       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">–</div>
                     </div>Lecture: introduction
@@ -273,6 +285,9 @@ Automata<br>
             <div class="u-accordion-pane u-align-left u-container-style u-accordion-pane-5" id="cf1c" aria-labelledby="link-cf1c">
               <div class="u-container-layout u-container-layout-5">
                 <ol class="u-text u-text-6">
+                <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">Selected Topics</h2>
+                </a>
                   <li> Lecture 1: introduction</li>
                   <li> Lecture 2:</li>
                   <li> Lecture 3:</li>

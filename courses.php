@@ -20,39 +20,47 @@
       <div class="u-align-left u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">
           <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">Announcements</a>
-        </h2><span class="u-file-icon u-icon u-icon-1"><img src="images/134808.png" alt=""></span>
+        </h2><span class="u-file-icon u-icon u-icon-1"><img src="pictures/39.png" alt=""></span>
         <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-1">
-          <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-2"><img src="images/2942259.png" alt=""></span>
+          <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-2"><img src="pictures/45.png" alt=""></span>
             <div class="u-align-center u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-2">
               <div class="u-container-layout">
+              <a href="bussines.php">
                 <h2 class="u-text u-text-default u-text-2"> Business Administration</h2>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-3">
-          <div class="u-container-layout u-container-layout-3"><span class="u-file-icon u-icon u-icon-3"><img src="images/556813.png" alt=""></span>
+          <div class="u-container-layout u-container-layout-3"><span class="u-file-icon u-icon u-icon-3"><img src="pictures/49.png" alt=""></span>
             <div class="u-align-center u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-4">
               <div class="u-container-layout">
+              <a href="css_major.php">
                 <h2 class="u-text u-text-default u-text-3"> Computer Science</h2>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-5">
-          <div class="u-container-layout u-container-layout-5"><span class="u-file-icon u-icon u-icon-4"><img src="images/8834071.png" alt=""></span>
+          <div class="u-container-layout u-container-layout-5"><span class="u-file-icon u-icon u-icon-4"><img src="pictures/46.png" alt=""></span>
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-6">
               <div class="u-container-layout">
+              <a href="coursesdetails.php">
                 <h2 class="u-text u-text-default u-text-4">Pharamacy</h2>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-7">
-          <div class="u-container-layout u-container-layout-7"><span class="u-file-icon u-icon u-icon-5"><img src="images/24904191.png" alt=""></span>
+          <div class="u-container-layout u-container-layout-7"><span class="u-file-icon u-icon u-icon-5"><img src="pictures/43.png" alt=""></span>
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-8">
               <div class="u-container-layout">
+              <a href="coursesdetails.php">
                 <h2 class="u-text u-text-default u-text-5">Alsun</h2>
+                </a>
               </div>
             </div>
           </div>
@@ -61,43 +69,53 @@
           <div class="u-container-layout u-container-layout-9"><span class="u-file-icon u-icon u-icon-6"><img src="images/2987853.png" alt=""></span>
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-10">
               <div class="u-container-layout">
+              <a href="coursesdetails.php">
                 <h2 class="u-text u-text-default u-text-6">Quizez</h2>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-11">
-          <div class="u-container-layout u-container-layout-11"><span class="u-file-icon u-icon u-icon-7"><img src="images/1624169.png" alt=""></span>
+          <div class="u-container-layout u-container-layout-11"><span class="u-file-icon u-icon u-icon-7"><img src="pictures/51.png" alt=""></span>
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-12">
               <div class="u-container-layout">
+              <a href="coursesdetails.php">
                 <h2 class="u-text u-text-default u-text-7"> Architecture</h2>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-13">
-          <div class="u-container-layout u-container-layout-13"><span class="u-file-icon u-icon u-icon-8"><img src="images/2432572.png" alt=""></span>
+          <div class="u-container-layout u-container-layout-13"><span class="u-file-icon u-icon u-icon-8"><img src="pictures/42.png" alt=""></span>
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-14">
               <div class="u-container-layout">
+              <a href="coursesdetails.php">
                 <h2 class="u-text u-text-default u-text-8"> Electronics</h2>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-15">
-          <div class="u-container-layout u-container-layout-15"><span class="u-file-icon u-icon u-icon-9"><img src="images/1398333.png" alt=""></span>
+          <div class="u-container-layout u-container-layout-15"><span class="u-file-icon u-icon u-icon-9"><img src="pictures/50.png" alt=""></span>
             <div class="u-align-center u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-16">
               <div class="u-container-layout">
+              <a href="coursesdetails.php">
                 <h2 class="u-text u-text-default u-text-9"> Mass Communication</h2>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-17">
-          <div class="u-container-layout u-container-layout-17"><span class="u-file-icon u-icon u-icon-10"><img src="images/4100226.png" alt=""></span>
+          <div class="u-container-layout u-container-layout-17"><span class="u-file-icon u-icon u-icon-10"><img src="pictures/52.png" alt=""></span>
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-18">
               <div class="u-container-layout">
+              <a href="coursesdetails.php">
                 <h2 class="u-text u-text-default u-text-10">Density</h2>
+                </a>
               </div>
             </div>
           </div>

@@ -44,6 +44,9 @@
             <div class="u-accordion-active u-accordion-pane u-align-left u-container-style u-accordion-pane-1" id="accordion-7c0e" aria-labelledby="link-accordion-7c0e">
               <div class="u-container-layout u-container-layout-1">
                 <ul class="u-custom-list u-text u-text-2">
+                <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">Legal issues in international business</h2>
+                </a>
                   <li>
                     <div class="u-list-icon">
                       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">–</div>
@@ -67,6 +70,9 @@
             <div class="u-accordion-pane u-align-left u-container-style u-accordion-pane-2" id="accordion-05cb" aria-labelledby="link-accordion-05cb">
               <div class="u-container-layout u-container-layout-2">
                 <ul class="u-custom-list u-text u-text-3">
+                <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">Human resources management</h2>
+                </a>
                   <li>
                     <div class="u-list-icon">
                       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">–</div>
@@ -90,6 +96,9 @@
             <div class="u-accordion-pane u-align-left u-container-style u-accordion-pane-3" id="accordion-a6bb" aria-labelledby="link-accordion-a6bb">
               <div class="u-container-layout u-container-layout-3">
                 <ul class="u-custom-list u-text u-text-4">
+                <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">IIntroduction to business</h2>
+                </a>
                   <li>
                     <div class="u-list-icon">
                       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">–</div>
@@ -113,6 +122,9 @@
             <div class="u-accordion-pane u-align-left u-container-style u-accordion-pane-4" id="04e7" aria-labelledby="link-04e7">
               <div class="u-container-layout u-container-layout-4">
                 <ul class="u-custom-list u-text u-text-5">
+                <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">Introduction to human rights</h2>
+                </a>
                   <li>
                     <div class="u-list-icon">
                       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">–</div>
@@ -145,6 +157,9 @@
             <div class="u-accordion-pane u-align-left u-container-style u-accordion-pane-5" id="cf1c" aria-labelledby="link-cf1c">
               <div class="u-container-layout u-container-layout-5">
                 <ol class="u-text u-text-6">
+                <a href="coursesdetails.php">
+                <h2 class="u-text u-text-default u-text-4">International business</h2>
+                </a>
                   <li> Lecture 1: introduction</li>
                   <li> Lecture 2:</li>
                   <li> Lecture 3:</li>
