@@ -45,7 +45,7 @@
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-2">
               <div class="u-container-layout">
               <a href="Quizez.php">
-                <h2 class="u-text u-text-default u-text-2">Quizez</h2>
+                <h2 class="u-text u-text-default u-text-2">Quizzes</h2>
                 </a>
               </div>
             </div>
@@ -56,7 +56,7 @@
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-4">
               <div class="u-container-layout">
               <a href="Assigmnents.php">
-                <h2 class="u-text u-text-default u-text-3">Assigmnent</h2>
+                <h2 class="u-text u-text-default u-text-3">Assignments</h2>
                 </a>
               </div>
             </div>
