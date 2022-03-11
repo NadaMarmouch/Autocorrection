@@ -58,7 +58,7 @@ body, html {
 
 <!-- Navbar (sit on top) -->
 
-<?php include("templates/navbar.php")  ?> 
+<?php include("templates/navtest.php")  ?> 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
@@ -117,77 +117,7 @@ body, html {
   </div>
 </div>
 
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">Courses</span>
-  </div>
-</div>    
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="Courses">
-  <h3 class="w3-center">Courses</h3>
 
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-   <div class="w3-row-padding w3-center">
-    <div class="w3-col m3" >
-    <a href="css_major.php">
-    <h5 class="u-text u-text-11"> Computer Science</h5>
-      <img src="pictures\10.jpg"style="width:100%"  class="w3-hover-opacity" alt="Computer Science">
-      </a>
-    </div>
-
-    <div class="w3-col m3">
-    <a href="bussines.php">
-    <h5 class="u-text u-text-11">Business Administration</h5>
-      <img src="pictures\11.jpg" style="width:100%" class="w3-hover-opacity" alt="Business Administration">
-      </a>
-    </div>
-
-    <div class="w3-col m3">
-    <a href="coursesdetails.php"style="height: 191px">
-    <h5 class="u-text u-text-11">Alsun</h5>
-      <img src="pictures\12.jpg" style="width:100%"  class="w3-hover-opacity" alt="Alsun">
-      </a>
-    </div>
-
-    <div class="w3-col m3">
-    <a href="pharamacy.php">
-    <h5 class="u-text u-text-11">Pharamacy</h5>
-      <img src="pictures\13.jpg" style="width:100%"  class="w3-hover-opacity" alt="Pharamacy">
-      </a>
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-    <a href="coursesdetails.php">
-    <h5 class="u-text u-text-11">Architecture</h5>
-      <img src="pictures\16.jpg" style="width:100%" class="w3-hover-opacity" alt="Architecture">
-      </a>
-    </div>
-
-    <div class="w3-col m3">
-    <a href="coursesdetails.php">
-    <h5 class="u-text u-text-11">Electronics</h5>
-      <img src="pictures\15.jpg" style="width:100%"  class="w3-hover-opacity" alt="Electronics">
-      </a>
-    </div>
-
-    <div class="w3-col m3">
-    <a href="coursesdetails.php">
-    <h5 class="u-text u-text-11">Mass Communication</h5>
-      <img src="pictures\14.jpg" style="width:100%"  class="w3-hover-opacity" alt="Mass Communication">
-      </a>
-    </div>
-
-    <div class="w3-col m3">
-    <a href="coursesdetails.php">
-    <h5 class="u-text u-text-11">Dentistry</h5>
-      <img src="pictures\25.jpg" style="width:100%"  class="w3-hover-opacity" alt="Dentistry">
-      </a>
-    </div>
-  </div>
-</div>
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">

@@ -1,4 +1,6 @@
 <?php
+// Start the session
+session_start();
 include "Model.php";
 class User extends Model {
 	protected $fname;

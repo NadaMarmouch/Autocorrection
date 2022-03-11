@@ -1,40 +1,110 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html style="font-size: 16px;">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <title>Courses</title>
-<link rel="stylesheet" href="assets/navbar.css">
-<link rel="stylesheet" href="assets/courses_styles.css">
-<link rel="stylesheet" href="assets/home_style.css">
-<link rel="stylesheet" href="assets/Contact_us_styles.css"><!-- linking the styles-->
-    <script type="text/javascript" src="js/Contact_us_js.js" defer> </script>
-
+    <link rel="stylesheet" href="assets/courses_styles.css">
+    <meta name="keywords" content="​CORRECTA Auto Correction for subjective questions, INTUITIVE">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Home</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Home.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.4.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <?php include("templates/navbar.php")  ?> 
     
-<main>
-<?php include("templates/navbar.php")  ?> 
-
-<body>
-
-<div class="fixed-bg bg-2-1">
-    <h1>COURSES</h1>
-
-  <img src="pictures/10.jpg" alt="" class="img1">
-  <img src="pictures/11.jpg" alt="" class="img1">
-  <img src="pictures/13.jpg" alt="" class="img1">
-  <img src="pictures/12.jpg" alt="" class="img1">
-  <img src="pictures/14.jfif" alt="" class="img1">
-  <img src="pictures/15.jpg" alt="" class="img1">
-  <img src="pictures/16.jpg" alt="" class="img1">
+       <section class="u-clearfix u-section-1" id="sec-787a">
+      <div class="u-align-left u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1">
+          <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">Announcements</a>
+        </h2><span class="u-file-icon u-icon u-icon-1"><img src="images/134808.png" alt=""></span>
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-1">
+          <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-2"><img src="images/2942259.png" alt=""></span>
+            <div class="u-align-center u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-2">
+              <div class="u-container-layout">
+                <h2 class="u-text u-text-default u-text-2"> Business Administration</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-3">
+          <div class="u-container-layout u-container-layout-3"><span class="u-file-icon u-icon u-icon-3"><img src="images/556813.png" alt=""></span>
+            <div class="u-align-center u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-4">
+              <div class="u-container-layout">
+                <h2 class="u-text u-text-default u-text-3"> Computer Science</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-5">
+          <div class="u-container-layout u-container-layout-5"><span class="u-file-icon u-icon u-icon-4"><img src="images/8834071.png" alt=""></span>
+            <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-6">
+              <div class="u-container-layout">
+                <h2 class="u-text u-text-default u-text-4">Pharamacy</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-7">
+          <div class="u-container-layout u-container-layout-7"><span class="u-file-icon u-icon u-icon-5"><img src="images/24904191.png" alt=""></span>
+            <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-8">
+              <div class="u-container-layout">
+                <h2 class="u-text u-text-default u-text-5">Alsun</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-9">
+          <div class="u-container-layout u-container-layout-9"><span class="u-file-icon u-icon u-icon-6"><img src="images/2987853.png" alt=""></span>
+            <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-10">
+              <div class="u-container-layout">
+                <h2 class="u-text u-text-default u-text-6">Quizez</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-11">
+          <div class="u-container-layout u-container-layout-11"><span class="u-file-icon u-icon u-icon-7"><img src="images/1624169.png" alt=""></span>
+            <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-12">
+              <div class="u-container-layout">
+                <h2 class="u-text u-text-default u-text-7"> Architecture</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-13">
+          <div class="u-container-layout u-container-layout-13"><span class="u-file-icon u-icon u-icon-8"><img src="images/2432572.png" alt=""></span>
+            <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-14">
+              <div class="u-container-layout">
+                <h2 class="u-text u-text-default u-text-8"> Electronics</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-15">
+          <div class="u-container-layout u-container-layout-15"><span class="u-file-icon u-icon u-icon-9"><img src="images/1398333.png" alt=""></span>
+            <div class="u-align-center u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-16">
+              <div class="u-container-layout">
+                <h2 class="u-text u-text-default u-text-9"> Mass Communication</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-17">
+          <div class="u-container-layout u-container-layout-17"><span class="u-file-icon u-icon u-icon-10"><img src="images/4100226.png" alt=""></span>
+            <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-18">
+              <div class="u-container-layout">
+                <h2 class="u-text u-text-default u-text-10">Density</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
   
-  <br><br><br>
-  
-
-
- 
-  </div>
-
-
-</body>
+  </body>
 </html>
-<?php include("Contact_us.php")  ?> <!-- linking the footer-->
-       <?php include("includes/Contact_us_inc.php")  ?> <!-- linking the footer-->
