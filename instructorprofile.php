@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -18,7 +19,7 @@
                   <div class="d-flex flex-column align-items-center text-center">
                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="200">
                     <div class="mt-3">
-                      <h4>Ahmed Elbeheiry</h4>
+                      <h4><?php print($_SESSION['fname'].''.$_SESSION['lname'])?></h4>
                       <p class="text-secondary mb-1">Instructor</p>
                       <p class="text-muted font-size-sm">Data Engineer</p>
                       <p class="text-muted font-size-sm">Misr international University</p>
@@ -43,16 +44,16 @@
                       <h6 class="mb-0">Full Name</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                     Ahmed Aly
+                    <?php print($_SESSION['fname'].''.$_SESSION['lname'])?>
                     </div>
                   </div>
                   <hr>
-                  <div class="row">
+                  <div class="row"> 
                     <div class="col-sm-3">
                       <h6 class="mb-0">UserName</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                     Ahmed Elbeheiry
+                    <?php print($_SESSION['fname'].''.$_SESSION['lname'])?>
                     </div>
                   </div>
                   <hr>
@@ -61,7 +62,7 @@
                       <h6 class="mb-0">Email</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                     ahmedlbeheiry@gmail.com
+                    <?php print($_SESSION['email'])?>
                     </div>
                   </div>
                   <hr>
@@ -81,7 +82,7 @@
                       <h6 class="mb-0">Phone</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      27747404
+                    <?php print(0..$_SESSION['phonenumber'])?>
                     </div>
                   </div>
                   <hr>
@@ -90,7 +91,7 @@
                       <h6 class="mb-0">Gender</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      Male
+                    <?php print($_SESSION['gender'])?>
                     </div>
                   </div>
                   <hr>

@@ -76,6 +76,12 @@ $this->dob= "";
         $result=mysqli_query($conn,$sql);
 
         $row=mysqli_fetch_array($result);
+        $_SESSION["fname"]=$row['fname'];
+        $_SESSION["lname"]=$row['lname'];
+        $_SESSION["email"]=$row['email'];
+        $_SESSION["password"]=$row['password'];
+        $_SESSION["phonenumber"]=$row['phonenumber'];
+        $_SESSION["gender"]=$row['gender'];
         $_SESSION["type"]=$row['Type-id'];
         if(mysqli_num_rows($result)==1&& $row['Type-id']==1){
                 header("Location:homepage.php");
