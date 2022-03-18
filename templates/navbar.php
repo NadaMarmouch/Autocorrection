@@ -28,7 +28,7 @@ session_start();
     <a href="instructor_feedback.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Feedback</a>
     <a href="instructorprofile.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Profile</a>
     <?php }?>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="contact.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="control.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Join us</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
