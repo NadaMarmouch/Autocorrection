@@ -1,7 +1,15 @@
 <?php
+class DBConnection{
+  private $conn;
+
+  public function connection()
+ {
   try{
-    $conn = mysqli_connect("localhost", "root", "", "autocorrection");
+    $this->conn = new mysqli("localhost", "root", "", "autocorrection");
+    return $this->conn;
   }catch(Exception $ex){
       echo "Error, Failed to connect to database";
     }
+  }
+}
 ?>
