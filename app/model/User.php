@@ -78,22 +78,24 @@ $this->dob= "";
         $row=mysqli_fetch_array($result);
         $_SESSION["fname"]=$row['fname'];
         $_SESSION["lname"]=$row['lname'];
-        $_SESSION["email"]=$row['email'];
         $_SESSION["password"]=$row['password'];
         $_SESSION["phonenumber"]=$row['phonenumber'];
         $_SESSION["gender"]=$row['gender'];
-        $_SESSION["type"]=$row['Type-id'];
+        //Hena session ll major lama tt3ml f sign up
         if(mysqli_num_rows($result)==1&& $row['Type-id']==1){
                 header("Location:homepage.php");
-        
+                $_SESSION["type"]=$row['Type-id'];
+                $_SESSION["email"]=$row['email'];
+                #henna session major
             }
        else if(mysqli_num_rows($result)==1&& $row['Type-id']==2){
                 header("Location:instructorprofile.php");
-        
+                $_SESSION["type"]=$row['Type-id'];
             }
         else{
             echo'<script>alert("Invalid User") </script>';
 
         }
     }
+   
 }

@@ -13,66 +13,96 @@ class UserView extends View{
     <head>
         <meta charset="utf-8">
         <title>Sign-Up</title>
-        <link rel="stylesheet" href="assets/login_styles.css"> <!-- hena by linked styling bt3 sign up -->
+        <link rel="stylesheet" href="assets/sign.css"> <!-- hena by linked styling bt3 sign up -->
         <link rel="stylesheet" href="assets/navbar.css"> <!-- hena by linked el navbar-->
     </head>
     
     <body>
-    
-        <div class="container">
-      <section id="content">
-    
-          <h1>signup Form</h1>
-    
-        <!-- sign-up form -->
-        <form  class=""  method="POST">
-    
-            <input class="styles" type="text" name="name" value=""required placeholder="Enter your First name..">
-            <div class="erroRS">
-                <p> <?php echo $errors["fname"] ?> </p>
+    <div class="container">
+      <div class="title">Registration</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" placeholder="Enter your First Name" required>
             </div>
-    
-            <input class="styles" type="text" name="lname" value=""required placeholder="Enter your Last name..">
-            <div class="erroRS">
-                <p> <?php echo $errors["lname"] ?> </p>
+            <div class="input-box">
+              <span class="details">Last Name</span>
+              <input type="text" placeholder="Enter your Last Name" required>
             </div>
-    
-    
-            <input class="styles" type="text" name="email" value="" required placeholder="Enter your email..">
-            <div class="erroRS">
-                <p> <?php echo $errors["email"] ?> </p>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" placeholder="Enter your email" required>
             </div>
-    
-            <input class="styles" type="text" name="phone" value="" required placeholder="Enter your phonenumber..">
-            <div class="erroRS">
-                <p> <?php echo $errors["phone"] ?> </p>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input type="text" placeholder="Enter your number" required>
             </div>
-    
-            <input type="password"name="password" placeholder="Password" required="" id="password" />
-            <div  class="erroRS">
-          </div> 
-         <br>
-          <input type="password" placeholder=" Re-type your password.." required="" id="password" />
-            <div class="erroRS">
-                <p> </p>
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input type="text" placeholder="Enter your password" required>
             </div>
-    
-            <input style ="width:30%;" class="styles" type="date" name="Age" ><br>
-    
-            
-            
-            <div>
-            <input type="submit"value="SignUp"name="submit">
-         
-            
+            <div class="input-box">
+              <span class="details">Confirm Password</span>
+              <input type="text" placeholder="Confirm your password" required>
+            </div>
           </div>
-    
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Prefer not to say</span>
+              </label>
+            </div>
+          </div>
+          <div class="form-group"> 
+              <label class="group-title">Major/Faculuty</label>
+                <div class="details">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                <select name="major" class="form-control selectpicker">
+                  <option value="">Select your Faculuty</option>
+                  <option>Computer Science</option>
+                  <option>Bussiness</option>
+                  <option >Alsun</option>
+                  <option >Mass communication</option>
+                  <option >Pharamacy</option>
+                  <option >Density</option>
+                  <option >Architecture</option>
+                  <option >Electronics</option>
+  
+                </select>
+              </div>
+            </div>
+            </div>
+            <div class="form-group"> 
+              <label class="group-title">Date</label>
+              <div>
+            <input style ="width:30%;" class="styles" type="date" name="Age" ><br></div>
+  </div>
+          <div class="button">
+            <input type="submit" value="Register"> <br>
+            <a href="control.php">Login Page</a>
+          </div>
         </form>
-        <!-- link bl signup php-->
-        <script type="text/javascript" src="js/form_validation_signup.js"> </script>
-    </body>
-    
-    </html>  ';
+      </div>
+    </div>
+  
+  </body>
+  </html> ';
 return $text;
         }
 

@@ -21,12 +21,14 @@ session_start();
       <a href="homepage.php" class="w3-bar-item w3-button"><i class="fa fa-home "></i> HOME</a>
     <a href="courses.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Courses</a>
     <a href="Score.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-graduation-cap"></i> Transcript</a>
+    <a href="control.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> LogOut</a>
     <?php }
     else if($_SESSION['type']==2){
     ?>
     <a href="questionbank.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-question-circle"></i> Bank Questions</a>
     <a href="instructor_feedback.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Feedback</a>
     <a href="instructorprofile.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Profile</a>
+    <a href="control.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> LogOut</a>
     <?php } else { ?>
     <a href="homepage.php" class="w3-bar-item w3-button"><i class="fa fa-home "></i> HOME</a>
     <a href="#contact.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>

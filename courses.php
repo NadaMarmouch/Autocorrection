@@ -1,3 +1,7 @@
+<?php
+session_start()
+// Variable nendah fe session el major
+?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
