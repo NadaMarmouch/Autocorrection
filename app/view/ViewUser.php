@@ -129,20 +129,21 @@ return $text;
 <body>
     <?php include("templates/navbar.php")?> <!-- link bl navbar-->
 
-    <h2>Login Page</h2>
+    
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
 		<form action="#" method="post">
 			<h1>Create Account</h1>
 			<div class="social-container">
-				<a href="#" class="social"><i class="fa fa-github"></i></a>
-				<a href="#" class="social"><i class="fa fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fa fa-linkedin-in"></i></a>
+				<a href="https://enterprise.github.com/login" class="social"><i class="fa fa-github"></i></a>
+				<a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&TL=AM3QAYa9_QOEQyK5Evro2LUkJ1jeBHktVl__jL1gsUw-4Cd4AGcaAd1vy2snexiS" class="social"><i class="fa fa-google-plus-g"></i></a>
+				<a href="https://www.linkedin.com/login/" class="social"><i class="fa fa-linkedin-in"></i></a>
 			</div>
 			<span>or use your email for registration</span>
 			<input type="text" placeholder="Name" />
 			<input type="email"name="email" placeholder="Email" />
 			<input type="password" name="password"placeholder="Password" />
+      
 			<input type="submit" name="submit"value="Sign Up">
 		</form>
 	</div>
@@ -164,6 +165,7 @@ return $text;
         <input class="styles" type="password" name="password" placeholder="Enter your password.." required>
        
 			<a href="#">Forgot your password?</a>
+      
 			<input type="submit" name="submit"value="Sign In">
 		</form>
 	</div>

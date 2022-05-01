@@ -18,7 +18,6 @@ session_start();
       <i class="fa fa-bars"></i>
     </a>
     <?php if($_SESSION['type']==1){?>
-      <a href="homepage.php" class="w3-bar-item w3-button"><i class="fa fa-home "></i> HOME</a>
     <a href="courses.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Courses</a>
     <a href="Score.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-graduation-cap"></i> Transcript</a>
     <a href="control.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> LogOut</a>
@@ -31,7 +30,7 @@ session_start();
     <a href="control.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> LogOut</a>
     <?php } else { ?>
     <a href="homepage.php" class="w3-bar-item w3-button"><i class="fa fa-home "></i> HOME</a>
-    <a href="#contact.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="control.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Join us</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-green"> <input type="text" placeholder="Search..">
       <i class="fa fa-search"></i>
