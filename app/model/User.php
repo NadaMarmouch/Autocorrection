@@ -83,14 +83,17 @@ $this->dob= "";
         $_SESSION["gender"]=$row['gender'];
         //Hena session ll major lama tt3ml f sign up
         if(mysqli_num_rows($result)==1&& $row['Type-id']==1){
-                header("Location:homepage.php");
+               
                 $_SESSION["type"]=$row['Type-id'];
                 $_SESSION["email"]=$row['email'];
+                $_SESSION["major"]=$row['major'];
                 #henna session major
+                header("Location:courses.php");
             }
        else if(mysqli_num_rows($result)==1&& $row['Type-id']==2){
-                header("Location:instructorprofile.php");
+                
                 $_SESSION["type"]=$row['Type-id'];
+                header("Location:instructorprofile.php");
             }
         else{
             echo'<script>alert("Invalid User") </script>';
