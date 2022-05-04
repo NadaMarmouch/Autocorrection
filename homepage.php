@@ -14,6 +14,7 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
+  margin: 39px 0;
 }
 
 /* Create a Parallax Effect */
