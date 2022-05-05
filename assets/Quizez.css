@@ -81,3 +81,148 @@
         width: 320px;
     }
 }
+
+
+/********************************************************************************************/
+
+.title {
+    text-align: center;
+    margin-bottom: -45px;
+    color: #000000;
+}
+
+.title h4 {
+    text-transform: capitalize;
+    margin-left: -993px;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+    padding: bottom 0PX;
+    ;
+}
+
+.Quizez-form {
+    display: block;
+    width: 56%;
+    box-sizing: border-box;
+    margin: auto;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    outline: none;
+    color: #57914e;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.Quizez-form1 {
+    display: block;
+    width: 56%;
+    height: 312px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    outline: none;
+    color: #57914e;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.Quizez-form:focus {
+    box-shadow: 0 0 10px 4px #57914e;
+}
+
+textarea .Quizez-form {
+    resize: none;
+    height: 120px;
+}
+
+.Quizez-form-btn {
+    float: none;
+    border: 0;
+    background: #57914e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.Quizez-form1-btn:hover {
+    background: #57914e;
+}
+
+.Quizez-form1:focus {
+    box-shadow: 0 0 10px 4px #57914e;
+}
+
+textarea .Quizez-form1 {
+    resize: none;
+    height: 120px;
+}
+
+.Quizez-form1-btn {
+    float: none;
+    border: 0;
+    background: #57914e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.Quizez-form1-btn:hover {
+    background: #57914e;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    color: rgb(180, 0, 0);
+    font-weight: 200;
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    box-shadow: 5px #57914e;
+    border: 3px solid #57914e;
+}
+
+.form-field {
+    display: block;
+    width: 30%;
+    box-sizing: border-box;
+    margin: auto;
+    border: 0;
+    padding: -22px 40px;
+    outline: none;
+    transition: 0.5s;
+    text-align: center;
+}
+
+
+/* ============== error and redirecting messages ============== */
+
+.erroRS p {
+    color: red;
+    font-family: tahoma;
+    margin-top: 3px;
+    margin-bottom: 40px;
+    font-size: 12px
+}
+
+
+/*  Error Messages */
+
+.input_errors {
+    box-shadow: 0 0 5px #F9806E;
+    border-color: #f8583f;
+}
