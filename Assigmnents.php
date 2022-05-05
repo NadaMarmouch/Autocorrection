@@ -1,14 +1,20 @@
+<?php
+ // linking ma3 el php code ely fl includes file
+include('includes/Quizez.php');
+?>
 <!DOCTYPE html>
-<html>
-<title>Assigmnent</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="assets/navbar.css">
-<link rel="stylesheet" href="assets/courses.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="
+" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assigmnents</title>
+    <link rel="stylesheet" href="assets/Quizez.css"> <!-- hena by linked styling bt3 sign up -->
+    <link rel="stylesheet" href="assets/navbar_styles.css"> <!-- hena by linked el navbar-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <meta name="keywords" content="​CORRECTA Auto Correction for subjective questions, INTUITIVE">
     <meta name="description" content="">
@@ -20,54 +26,42 @@
     <meta name="generator" content="Nicepage 4.4.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
-    
+</head>
+
 <body>
+    <?php include('templates/navbar.php')?> <!-- link bl navbar-->
 
-<!-- Navbar (sit on top) -->
-
-<?php include("templates/navbar.php")  ?> 
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-   
-  </div>
-</div>
-
-<!-- Container (About Section) -->
-<section class="u-clearfix u-section-1" id="sec-7af3">
+<div id="contact" class="Quizez">
+      <br><br><br><br>
+      <h5 class="h5" id="contact"></h5>
+      <div class="title">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1">
-          <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">Announcements</a>
-        </h2><span class="u-file-icon u-icon u-icon-1"><img src="pictures/39.png" alt=""></span>
-        <div class="u-align-center u-form u-form-1">
-          <form action="#" method="POST" class="u-clearfix u-form-spacing-32 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 36px;">
-            <input type="hidden" id="siteId" name="siteId" value="288606452">
-            <input type="hidden" id="pageId" name="pageId" value="272987793">
-            <div class="u-form-group u-form-name">
-              <label for="name-6b51" class="u-label">Assigmnent title</label>
-              <input type="text" placeholder="Title" id="name-6b51" name="Title" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white u-input-1" required="">
+      <h2 class="u-text u-text-default u-text-1">
+      <a href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883" class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1"><i class="fa fa-question"></i> If you have any Trouble?</a>
+        
+        </h2>
             </div>
-            <div class="u-form-group u-form-message">
-              <label for="message-6b51" class="u-label">Answer</label>
-              <textarea placeholder="Enter your Answer" rows="10" cols="50" id="message-6b51" name="Answer" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white u-input-2" required=""></textarea>
-            </div>
-            <div class="u-align-right u-form-group u-form-submit">
-              <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-1 u-btn-2">Next</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
-            </div>
-            <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
-            <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-            <input type="hidden" value="" name="recaptchaResponse">
-          </form>
+
+            <form id="validate" class="Quizez" action="#" method="post">
+
+        <label for="name-6b51" class="u-label">Assigmnents title</label>
+        <input class="Quizez-form" type="text" name="Title" value="<?php echo $Title ?>" placeholder="Title..">
+        <div class="erroRS">
         </div>
-      </div>
-    </section>
-    
-    
+        <input type="hidden" name="Title-v" value="">
 
-    
+        <label for="message-6b51" class="u-label">Assigmnents Answer</label>
+        <input class="Quizez-form1" type="Answer" name="Answer"value="<?php echo $Answer ?>" placeholder="Enter your Answer..">
+        <div class="input_errors">
+         </div>
+        <input type="hidden" name="Answer-v" value="">
 
- 
 
-</body>
-</html>
+        <input type="submit" class="Quizez-form-btn" name="submit" value="Submit">
+      </form>
+
+</div>
+   
+
+
+    </div>
