@@ -1,6 +1,6 @@
 <?php
  // linking ma3 el php code ely fl includes file
-include('includes/Quizez.php');
+include('includes/assignment.php');
 ?>
 <!DOCTYPE html>
 <html lang="
@@ -42,19 +42,19 @@ include('includes/Quizez.php');
         </h2>
             </div>
 
-            <form id="validate" class="Quizez" action="#" method="post">
+            <form id="validate" class="assignment" action="#" method="post">
 
         <label for="name-6b51" class="u-label">Assigmnents title</label>
-        <input class="Quizez-form" type="text" name="Title" value="<?php echo $Title ?>" placeholder="Title..">
+        <input class="Quizez-form" type="text" name="Title" value="<?php echo $assignments_title ?>" placeholder="Title..">
         <div class="erroRS">
         </div>
-        <input type="hidden" name="Title-v" value="">
+        <input type="hidden" name="assignments_title-v" value="">
 
         <label for="message-6b51" class="u-label">Assigmnents Answer</label>
-        <input class="Quizez-form1" type="Answer" name="Answer"value="<?php echo $Answer ?>" placeholder="Enter your Answer..">
+        <input class="Quizez-form1" type="Answer" name="Answer-v" value="<?php echo $assignments_answer ?>" placeholder="Enter your Answer..">
         <div class="input_errors">
          </div>
-        <input type="hidden" name="Answer-v" value="">
+        <input type="hidden" name="assignments_answer-v" value="">
 
 
         <input type="submit" class="Quizez-form-btn" name="submit" value="Submit">
@@ -62,6 +62,12 @@ include('includes/Quizez.php');
 
 </div>
    
+<?php include "assignmet_back.php";
+  $a=new assignment();
 
+if(isset($_POST['submit'])){
+    $a->addassignmeent();
+    
+} ?>
 
     </div>
