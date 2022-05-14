@@ -7,5 +7,4 @@ include 'app/model/User.php';
 $model = new User();
 $controller = new UserController($model);
 $controller->insert();
-
 ?>

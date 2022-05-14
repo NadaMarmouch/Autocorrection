@@ -10,11 +10,13 @@ class UserController extends Controller{
 		
 		if(isset($_POST['submit']))
 		{	
-			$UserModel->setFirstname($_POST['name']);
+			$UserModel->setFirstname($_POST['fname']);
 			$UserModel->setLastname($_POST['lname']);
 			$UserModel->setEmail($_POST['email']);
 			$UserModel->setPassword($_POST['password']);
-			$UserModel->setPhonenumber($_POST['phone']);
+			$UserModel->setPhonenumber($_POST['phonenumber']);
+			$UserModel->setMajor($_POST['major']);
+			$UserModel->setGender($_POST['gender']);
 			$UserModel->setDateOfBirth($_POST['Age']);
 			$UserModel->AddUser();
 		}	

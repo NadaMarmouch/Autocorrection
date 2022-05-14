@@ -28,7 +28,11 @@ include('includes/Quizez.php');
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
 </head>
-
+<?php 
+ $conn = mysqli_connect('localhost',"root","" ,"autocorrection" );
+ $sql='select * from questions';
+ $result=mysqli_query($conn,$sql);
+?>
 <body>
     <?php include('templates/navbar.php')?> <!-- link bl navbar-->
 
@@ -42,11 +46,12 @@ include('includes/Quizez.php');
         
         </h2>
             </div>
-
-            <form id="validate" class="Quizez" action="#" method="post">
-
+ <form id="validate" class="Quizez" action="#" method="post">
+ <?php
+                while($row=mysqli_fetch_array($result)){?>
+           
         <label for="name-6b51" class="u-label">Question title</label>
-        <input class="Quizez-form" type="text" name="Title" value="<?php echo $Title ?>" placeholder="Title..">
+        <input class="Quizez-form" type="text"readonly name="Title" value=" <?php echo $row['text'];?>">
         <div class="erroRS">
         </div>
         <input type="hidden" name="Title-v" value="">
@@ -58,9 +63,12 @@ include('includes/Quizez.php');
         <input type="hidden" name="Answer-v" value="">
 
 
+        <?php 
+        }
+        
+        ?>
         <input type="submit" class="Quizez-form-btn" name="submit" value="Submit">
       </form>
-
 </div>
    
 <?php include "quizez_back.php";

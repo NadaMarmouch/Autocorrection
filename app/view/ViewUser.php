@@ -21,27 +21,31 @@ class UserView extends View{
     <div class="container">
       <div class="title">Registration</div>
       <div class="content">
-        <form action="#">
+        <form  method="post">
           <div class="user-details">
             <div class="input-box">
               <span class="details">Full Name</span>
-              <input type="text" placeholder="Enter your First Name" required>
+              <input type="text" placeholder="Enter your First Name" name="fname" required>
             </div>
             <div class="input-box">
               <span class="details">Last Name</span>
-              <input type="text" placeholder="Enter your Last Name" required>
+              <input type="text" placeholder="Enter your Last Name" required name="lname">
             </div>
             <div class="input-box">
               <span class="details">Email</span>
-              <input type="text" placeholder="Enter your email" required>
+              <input type="text" placeholder="Enter your email" required name="email">
             </div>
             <div class="input-box">
               <span class="details">Phone Number</span>
-              <input type="text" placeholder="Enter your number" required>
+              <input type="text" placeholder="Enter your number" name="phonenumber" required>
             </div>
             <div class="input-box">
               <span class="details">Password</span>
+<<<<<<< Updated upstream
               <input type="password" placeholder="Enter your password" required>
+=======
+              <input type="password" placeholder="Enter your password" required name="password">
+>>>>>>> Stashed changes
             </div>
             <div class="input-box">
               <span class="details">Confirm Password</span>
@@ -49,9 +53,9 @@ class UserView extends View{
             </div>
           </div>
           <div class="gender-details">
-            <input type="radio" name="gender" id="dot-1">
-            <input type="radio" name="gender" id="dot-2">
-            <input type="radio" name="gender" id="dot-3">
+            <input type="radio" name="gender"value="male" id="dot-1">
+            <input type="radio" name="gender" value="female"id="dot-2">
+            <input type="radio" name="gender" value="other"id="dot-3">
             <span class="gender-title">Gender</span>
             <div class="category">
               <label for="dot-1">
@@ -75,14 +79,14 @@ class UserView extends View{
                     <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
                 <select name="major" class="form-control selectpicker">
                   <option value="">Select your Faculuty</option>
-                  <option>Computer Science</option>
-                  <option>Bussiness</option>
-                  <option >Alsun</option>
-                  <option >Mass communication</option>
-                  <option >Pharamacy</option>
-                  <option >Density</option>
-                  <option >Architecture</option>
-                  <option >Electronics</option>
+                  <option value="Computer Science">Computer Science</option>
+                  <option value="Bussiness">Bussiness</option>
+                  <option value="Alsun">Alsun</option>
+                  <option value="Mass Communication">Mass communication</option>
+                  <option value="Pharmacy">Pharamacy</option>
+                  <option value="Densitry">Densitry</option>
+                  <option value="Architecture">Architecture</option>
+                  <option value="Electronics">Electronics</option>
   
                 </select>
               </div>
@@ -94,7 +98,7 @@ class UserView extends View{
             <input style ="width:30%;" class="styles" type="date" name="Age" ><br></div>
   </div>
           <div class="button">
-            <input type="submit" value="Register"> <br>
+            <input name="submit"type="submit" value="Register"> <br>
             <a href="control.php">Login Page</a>
           </div>
         </form>

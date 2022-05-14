@@ -5,7 +5,11 @@ include('includes/assignment.php');
 <!DOCTYPE html>
 <html lang="
 " dir="ltr">
-
+<?php 
+ $conn = mysqli_connect('localhost',"root","" ,"autocorrection" );
+ $sql='select * from assignment';
+ $result=mysqli_query($conn,$sql);
+?>
 <head>
     <meta charset="utf-8">
     <title>Assigmnents</title>
@@ -43,9 +47,10 @@ include('includes/assignment.php');
             </div>
 
             <form id="validate" class="assignment" action="#" method="post">
-
+            <?php
+                while($row=mysqli_fetch_array($result)){?>
         <label for="name-6b51" class="u-label">Assigmnents title</label>
-        <input class="Quizez-form" type="text" name="Title" value="<?php echo $assignments_title ?>" placeholder="Title..">
+        <input class="Quizez-form" type="text" name="Title" readonly value="<?php echo $row['assignments_title'] ?>">
         <div class="erroRS">
         </div>
         <input type="hidden" name="assignments_title-v" value="">
@@ -57,6 +62,10 @@ include('includes/assignment.php');
         <input type="hidden" name="assignments_answer-v" value="">
 
 
+        <?php 
+        }
+        
+        ?>
         <input type="submit" class="Quizez-form-btn" name="submit" value="Submit">
       </form>
 

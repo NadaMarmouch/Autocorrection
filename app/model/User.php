@@ -9,13 +9,17 @@ class User extends Model {
     protected $phonenumber;
     protected $password;
     protected $dob;
+    protected $major;
+    protected $Gender;
 
    public function __construct() {
 $this->fname='';
+$this->major='';
 $this->lname="";
 $this->email="";
 $this->phonenumber="";
 $this->password= "";
+$this->Gender= "";
 $this->dob= "";
     }
 
@@ -57,15 +61,31 @@ $this->dob= "";
     }
     public function setDateOfBirth($dob){
        $this->dob=$dob;
-    }  
+    } 
+   
+    public function getGender(){
+        return $this->Gender;
+    }
+    public function setGender($Gender){
+       $this->Gender=$Gender;
+    } 
+
+    public function getMajor(){
+        return $this->major;
+    }
+    public function setMajor($major){
+       $this->major=$major;
+    } 
+    
+
     function AddUser(){
         
-		$sql = "INSERT INTO `user`( `fname`, `lname`, `email`, `password`, `Type-id`,`age`, `phonenumber`)
-         VALUES ('$this->fname','$this->lname','$this->email',' $this->password', 1,'$this->dob','$this->phonenumber')";
+		$sql = "INSERT INTO `user`( `fname`, `lname`, `email`, `password`, `Type-id`, `phonenumber`,gender,major,date)
+        VALUES ('$this->fname','$this->lname','$this->email',' $this->password', 1,'$this->phonenumber',
+        '$this->Gender','$this->major','$this->dob')";
         $conn = mysqli_connect('localhost',"root","" ,"autocorrection" );
-        if(mysqli_query($conn,$sql)){
-            header("Location:homepage.php");
-        }
+        mysqli_query($conn,$sql);
+       
         
         
     }
