@@ -1,5 +1,14 @@
 <?php
-session_start()
+session_start();
+include "app/db/Dbh.php";
+
+$DB = new Dbh();
+if(!isset($_SESSION["id"])){
+  header('location:./control.php');
+  die();
+}
+$uid = $_SESSION['id'];
+$result = $DB->query("SELECT c.* FROM courses c, user u WHERE u.id=$uid AND u.major_id=c.faculty_id");
 // Variable nendah fe session el major
 ?>
 <!DOCTYPE html>
@@ -20,23 +29,31 @@ session_start()
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <?php include("templates/navbar.php")  ?> 
     
-       <section class="u-clearfix u-section-1" id="sec-787a">
-      <div class="u-align-left u-clearfix u-sheet u-sheet-1">
+       <section class="u-clearfix u-section-1"  id="sec-787a">
+      <div class="u-align-left u-clearfix u-sheet u-sheet-1" >
         <h2 class="u-text u-text-default u-text-1">
           <a class="aalink u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1" onclick="" href="https://moodle.miuegypt.edu.eg/mod/forum/view.php?id=21883">Announcements</a>
         </h2><span class="u-file-icon u-icon u-icon-1"><img src="pictures/39.png" alt=""></span>
-        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-1">
+        <div style="display:flex;width:100%;flex-wrap:wrap;">
+        <?php
+        while($row = $DB->fetchRow($result)){
+        ?> 
+        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-1" style="margin:10px;">
           <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-2"><img src="pictures/45.png" alt=""></span>
             <div class="u-align-center u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-2">
               <div class="u-container-layout">
               <a href="bussines.php">
-                <h2 class="u-text u-text-default u-text-2"> Business Administration</h2>
+                <h2 class="u-text u-text-default u-text-2"> <?php echo $row["coursename"] ?></h2>
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-3">
+        <?php
+        }
+        ?>
+        </div>
+        <!-- <div class="u-container-style u-grey-10 u-group u-preserve-proportions u-radius-15 u-shape-round u-group-3">
           <div class="u-container-layout u-container-layout-3"><span class="u-file-icon u-icon u-icon-3"><img src="pictures/49.png" alt=""></span>
             <div class="u-align-center u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-4">
               <div class="u-container-layout">
@@ -124,7 +141,7 @@ session_start()
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
     
   

@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?><!DOCTYPE html>
 <html>
 <title>Home</title>
 <meta charset="UTF-8">

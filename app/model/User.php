@@ -76,6 +76,7 @@ $this->dob= "";
         $result=mysqli_query($conn,$sql);
 
         $row=mysqli_fetch_array($result);
+        $_SESSION["id"]=$row['id'];
         $_SESSION["fname"]=$row['fname'];
         $_SESSION["lname"]=$row['lname'];
         $_SESSION["password"]=$row['password'];
@@ -88,7 +89,7 @@ $this->dob= "";
                 $_SESSION["email"]=$row['email'];
                 $_SESSION["major"]=$row['major'];
                 #henna session major
-                header("Location:courses.php");
+                header("Location:homepage.php");
             }
        else if(mysqli_num_rows($result)==1&& $row['Type-id']==2){
                 
