@@ -1,8 +1,13 @@
+<?php
+include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
+
+?>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="assets/student.css">
 <!------ Include the above in your HEAD tag ---------->
+
 
 <div class="container emp-profile">
             <form method="post">
@@ -44,11 +49,11 @@
                     <div class="col-md-4">
                         <div class="profile-work">
                             <p>Courses</p>
-                            <a href="">Data Engineering</a><br/>
-                            <a href="">Web Developer</a><br/>
-                            <a href="">Algorithm</a><br/>
-                            <a href="">Mobile Application</a><br/>
-                            <a href="">Network</a><br/>
+                            <a href="#">Data Engineering</a><br/>
+                            <a href="#">Web Developer</a><br/>
+                            <a href="#">Algorithm</a><br/>
+                            <a href="#">Mobile Application</a><br/>
+                            <a href="#">Network</a><br/>
                         </div>
                     </div>
                     <div class="col-md-8">
@@ -59,7 +64,10 @@
                                                 <label>Full Name</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>Nada Ahmed Galal </p>
+                                            <div class="erroRS">
+                                            <p> <?php echo $errors['fname'] ?> </p>
+                                             </div>
+                                              <input type="hidden" name="name_v" value="">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -67,7 +75,10 @@
                                                 <label> Last Name</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>Marmouch</p>
+                                            <div class="erroRS">
+                                            <p> <?php echo $errors['lname'] ?> </p>
+                                             </div>
+                                              <input type="hidden" name="lname_v" value="">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -75,7 +86,7 @@
                                                 <label>Email</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>nada@gmail.com</p>
+                                                <p><?php echo $errors['email'] ?></p>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -83,7 +94,10 @@
                                                 <label>Phone</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>01120041778</p>
+                                            <div class="erroRS">
+                                            <p> <?php echo $errors['phonenumber'] ?> </p>
+                                             </div>
+                                              <input type="hidden" name="phone_v" value="">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -91,69 +105,27 @@
                                                 <label>password</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>142536</p>
-                                            </div>
-                                        </div>
-                            </div>
-                            <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Gender</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Female</p>
+                                            <div class="erroRS">
+                                            <p> <?php echo $errors['password'] ?> </p>
+                                             </div>
+                                              <input type="hidden" name="password_v" value="">
                                             </div>
                                         </div>
                            
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Experience</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Expert</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Hourly Rate</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>10$/hr</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Total Projects</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>230</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>English Level</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Expert</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Availability</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>6 months</p>
-                                            </div>
-                                        </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label>Your Bio</label><br/>
-                                        <p>Your detail description</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                           
+                            
                     </div>
                 </div>
             </form>           
         </div>
+
+ <?php include "user.php";
+
+if(isset($_POST['submit'])){
+    $U=new adduser();
+    $U->adduser();
+    
+} ?>
+
+       
+      
