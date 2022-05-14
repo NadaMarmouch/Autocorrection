@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <!--<title> Responsiive Admin Dashboard | CodingLab </title>-->
     <link rel="stylesheet" href="assets/admin.css">
+    <link rel="stylesheet" href="assets/profile_admin.css">
     <link rel="stylesheet" href="assets/student.css">
     <!-- Boxicons CDN Link -->
    <!-- dah logo <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>-->
@@ -30,7 +31,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="admin_student.php">
             <i class='bx bx-list-ul' ></i>
             <span class="links_name">Manage Student's</span>
           </a>
@@ -42,7 +43,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="contact_admin.php">
             <i class='bx bx-message' ></i>
             <span class="links_name">Messages</span>
           </a>
@@ -113,23 +114,73 @@
         </div>
       </div>
 
-      <div class="sales-boxes">
-        <div class="recent-sales box">
-          <div class="sales-details">
-          <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Full Name</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Nada Ahmed Galal </p>
-                                            </div>
-                                        </div>
-                                      
-   
-          <div class="button">
-            <a href="#">Edit</a>
-          </div>
-        </div>
+      <div class="container">
+    <div class="main-body">
+    
+    
+          <div class="row gutters-sm">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                    <div class="mt-3">
+                      <h4>Nada Ahmed</h4>
+                      <p class="text-secondary mb-1">Admin of website</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+           
+            <div class="col-md-8">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Full Name</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      Nada Ahmed Galal
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Email</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      nada@gmail.com
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Phone</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      (02) 01120049117
+                    </div>
+                  </div>
+                  
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Address</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      29 dr soliman azamy/ masr el gdeda
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <a class="btn btn-info " target="__blank" href="#">Edit</a>
+                    </div>
+                  </div>
+                </div>
+</div>
        
   </section>
 
