@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <title>Transcript</title>
@@ -26,6 +29,7 @@
 <!-- Navbar (sit on top) -->
 
 <?php include("templates/navbar.php")  ?> 
+
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">

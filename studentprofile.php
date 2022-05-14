@@ -4,6 +4,17 @@
 <link rel="stylesheet" href="assets/student.css">
 <!------ Include the above in your HEAD tag ---------->
 
+<?php 
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "autocorrection";
+//=$_SESSION["idOfcourse"];
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+?>
+
 <div class="container emp-profile">
             <form method="post">
                 <div class="row">

@@ -18,12 +18,15 @@
     <?php
      if(isset($_SESSION['type']))
      {
+    
       if($_SESSION['type']==1)
       {
     ?>
         <a href="courses.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Courses</a>
         <a href="Score.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-graduation-cap"></i> Transcript</a>
         <a href="control.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> LogOut</a>
+        <a href="studentprofile.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Profile</a>
+        <a href="homepage.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Home</a>
     <?php 
       }
       else if($_SESSION['type']==2)
@@ -35,7 +38,7 @@
     <a href="control.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> LogOut</a>
     <?php 
       } 
-    }
+    
     else
     {
     ?>
@@ -45,7 +48,7 @@
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-green"> <input type="text" placeholder="Search..">
     <i class="fa fa-search"></i></a>
     <?php 
-    }
+    }}
     ?>
   </div>
 
