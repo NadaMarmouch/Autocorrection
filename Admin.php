@@ -48,13 +48,6 @@
             <span class="links_name">Messages</span>
           </a>
         </li>
-        
-        <li>
-          <a href="#">
-            <i class='bx bx-cog' ></i>
-            <span class="links_name">Setting</span>
-          </a>
-        </li>
         <li class="log_out">
           <a href="#">
             <i class='bx bx-log-out'></i>
@@ -126,7 +119,7 @@
                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
                     <div class="mt-3">
                       <h4>Nada Ahmed</h4>
-                      <p class="text-secondary mb-1">Admin of website</p>
+                      <p class="text-secondary mb-1">Admin</p>
                       
                     </div>
                   </div>

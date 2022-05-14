@@ -41,11 +41,11 @@ class UserView extends View{
             </div>
             <div class="input-box">
               <span class="details">Password</span>
-              <input type="text" placeholder="Enter your password" required>
+              <input type="password" placeholder="Enter your password" required>
             </div>
             <div class="input-box">
               <span class="details">Confirm Password</span>
-              <input type="text" placeholder="Confirm your password" required>
+              <input type="password" placeholder="Confirm your password" required>
             </div>
           </div>
           <div class="gender-details">
@@ -69,7 +69,7 @@ class UserView extends View{
             </div>
           </div>
           <div class="form-group"> 
-              <label class="group-title">Major/Faculuty</label>
+              <label class="group-title">Major/Faculty</label>
                 <div class="details">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
