@@ -21,13 +21,15 @@ class user
       if(mysqli_num_rows($result)==1)
       {
          if($row['email']==$email && $row['password']==$password )
-         {  session_start();
+         {
+            session_start();
             $_SESSION['id'] = $row['id'];
             $_SESSION['email']=$email;
             $_SESSION['password']=$password;
             $_SESSION['name']=$row['fname'];
             $_SESSION['lname']=$row['lname'];
-            header("Location:homepage.php");
+            header("Location:studentprofile.php?id=".$_row['lname']);
+            echo $_row['lname'];
          }
          else
          {

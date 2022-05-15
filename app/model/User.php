@@ -118,8 +118,6 @@ $this->dob= "";
             }
         else{
             echo'<script>alert("Invalid User") </script>';
-
         }
-    }
-   
+    } 
 }

@@ -1,6 +1,6 @@
 <?php
 include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
-
+session_start();
 ?>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -8,19 +8,6 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
 <link rel="stylesheet" href="assets/student.css">
 <!------ Include the above in your HEAD tag ---------->
 
-<<<<<<< HEAD
-<?php 
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "autocorrection";
-//=$_SESSION["idOfcourse"];
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-?>
-=======
->>>>>>> ca74fe4d6354e170e237ba874b97632f96079638
 
 <div class="container emp-profile">
             <form method="post">
@@ -37,7 +24,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
                     <div class="col-md-6">
                         <div class="profile-head">
                                     <h5>
-                                        Nada Ahmed
+                                        <?php echo $_SESSION['name']." ".$_SESSION['lname'];?>
                                     </h5>
                                     <h6>
                                        Computer Science
@@ -66,7 +53,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
                             <a href="#">Web Developer</a><br/>
                             <a href="#">Algorithm</a><br/>
                             <a href="#">Mobile Application</a><br/>
-                            <a href="#">Network</a><br/>
+                            <a href="#*">Network</a><br/>
                         </div>
                     </div>
                     <div class="col-md-8">
