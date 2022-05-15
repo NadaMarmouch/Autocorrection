@@ -1,25 +1,47 @@
 <?php
+
+session_start();
+if(!isset($_GET['id'])){
+    die('Please select assignment first');
+}
+$id = $_GET['id'];
+
  // linking ma3 el php code ely fl includes file
 include('includes/assignment.php');
+
+ $conn = mysqli_connect('localhost',"root","" ,"autocorrection" );
+
+if(isset($_POST['submit'])){
+    $answers = $_POST['answer'];
+    $question_ids = $_POST['question_id'];
+    $user_id = $_SESSION['id'];
+    $i=0;
+    foreach($answers as $answer){
+        $sql="INSERT INTO assignment_answers VALUES(NULL, '$user_id' ,'{$question_ids[$i]}', '$answer')";
+        $result=mysqli_query($conn,$sql);
+        $i++;
+    }
+    echo "Answers submitted successfully";
+}
 ?>
 <!DOCTYPE html>
 <html lang="
 " dir="ltr">
 <?php 
- $conn = mysqli_connect('localhost',"root","" ,"autocorrection" );
- $sql='select * from assignment';
+ $sql='select * from questions where assignment_id='.$id;
  $result=mysqli_query($conn,$sql);
 ?>
 <head>
     <meta charset="utf-8">
-    <title>Assigmnents</title>
+    <title>Questions </title>
     <link rel="stylesheet" href="assets/Quizez.css"> <!-- hena by linked styling bt3 sign up -->
     <link rel="stylesheet" href="assets/navbar_styles.css"> <!-- hena by linked el navbar-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <meta name="keywords" content="​CORRECTA Auto Correction for subjective questions, INTUITIVE">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
@@ -46,37 +68,27 @@ include('includes/assignment.php');
         </h2>
             </div>
 
-            <form id="validate" class="assignment" action="#" method="post">
+        <form class="w-full px-8" method="POST">
             <?php
-                while($row=mysqli_fetch_array($result)){?>
-        <label for="name-6b51" class="u-label">Assigmnents title</label>
-        <input class="Quizez-form" type="text" name="Title" readonly value="<?php echo $row['assignments_title'] ?>">
-        <div class="erroRS">
-        </div>
-        <input type="hidden" name="assignments_title-v" value="">
-
-        <label for="message-6b51" class="u-label">Assigmnents Answer</label>
-        <input class="Quizez-form1" type="Answer" name="Answer-v" value="<?php echo $assignments_answer ?>" placeholder="Enter your Answer..">
-        <div class="input_errors">
-         </div>
-        <input type="hidden" name="assignments_answer-v" value="">
-
-
-        <?php 
-        }
-        
-        ?>
-        <input type="submit" class="Quizez-form-btn" name="submit" value="Submit">
-      </form>
+            while($row = $result->fetch_assoc()){
+                ?>
+                <div class="py-2 my-2 px-4 bg-gray-200 rounded-md hover:bg-gray-300">
+                <p class="text-xl">
+                    <?php echo $row["text"]?>
+                </p>
+                <input type="hidden" name="question_id[]" value="<?php echo $row['Question-id']; ?>">
+                <textarea name="answer[]" id="" cols="30" rows="10"></textarea>
+                    </div>
+                <?php
+            }
+            ?>
+            <button name="submit" class="py-2 px-8 text-white bg-green-500 hover:bg-green-700 active:bg-green-400">
+                Submit
+            </button>
+        </form>
+       
 
 </div>
    
-<?php include "assignmet_back.php";
-  $a=new assignment();
-
-if(isset($_POST['submit'])){
-    $a->addassignmeent();
-    
-} ?>
 
     </div>
