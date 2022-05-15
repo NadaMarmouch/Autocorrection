@@ -42,7 +42,7 @@ $result = $DB->query("SELECT c.* FROM courses c, user u WHERE u.id=$uid AND u.ma
           <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-2"><img src="pictures/45.png" alt=""></span>
             <div class="u-align-center u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-2">
               <div class="u-container-layout">
-              <a href="bussines.php">
+              <a href="coursesdetails.php?id=<?php echo $row["id"]; ?>">
                 <h2 class="u-text u-text-default u-text-2"> <?php echo $row["coursename"] ?></h2>
                 </a>
               </div>
