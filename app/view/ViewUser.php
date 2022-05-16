@@ -41,11 +41,7 @@ class UserView extends View{
             </div>
             <div class="input-box">
               <span class="details">Password</span>
-<<<<<<< Updated upstream
               <input type="password" placeholder="Enter your password" required>
-=======
-              <input type="password" placeholder="Enter your password" required name="password">
->>>>>>> Stashed changes
             </div>
             <div class="input-box">
               <span class="details">Confirm Password</span>
