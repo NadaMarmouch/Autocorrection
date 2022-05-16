@@ -13,6 +13,13 @@ class user
       $sql="INSERT into user (fname,lname,email,password) values('$_POST[name]','$_POST[lname]','$_POST[email]','$_POST[password1]')";
       mysqli_query($dbvariable->connectDB(),$sql);  
    }
+   public function addinstructor()
+   {
+      $dbvariable =new DB();
+      $sql="INSERT into user (fname,lname,email,password, typeid,) values('$_POST[name]','$_POST[lname]','$_POST[email]','$_POST[password1]')";
+      mysqli_query($dbvariable->connectDB(),$sql);  
+   }
+
    public function login($email,$password){
       $dbvariable =new DB();
       $sql=" SELECT * from user where email='$email' and password='$password'";
