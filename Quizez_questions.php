@@ -1,22 +1,39 @@
 <?php
+
+session_start();
 if(!isset($_GET['id'])){
-    die('Please select course first');
+    die('Please select quiz first');
 }
 $id = $_GET['id'];
+
  // linking ma3 el php code ely fl includes file
 include('includes/Quizez.php');
+
+ $conn = mysqli_connect('localhost',"root","" ,"autocorrection" );
+
+if(isset($_POST['submit'])){
+    $answer = $_POST['answer'];
+    $question_id = $_POST['question_id'];
+    $user_id = $_SESSION['id'];
+    $i=0;
+    foreach($answer as $answer){
+        $sql="INSERT INTO Answer VALUES(NULL, '$user_id' ,'{$question_id[$i]}', '$answer')";
+        $result=mysqli_query($conn,$sql);
+        $i++;
+    }
+    echo "Answers submitted successfully";
+}
 ?>
 <!DOCTYPE html>
 <html lang="
 " dir="ltr">
 <?php 
- $conn = mysqli_connect('localhost',"root","" ,"autocorrection" );
- $sql='select * from quizzes WHERE course_id='.$id;
+ $sql='select * from questions where quiz_id='.$id;
  $result=mysqli_query($conn,$sql);
 ?>
 <head>
     <meta charset="utf-8">
-    <title>Assignments </title>
+    <title>Questions </title>
     <link rel="stylesheet" href="assets/Quizez.css"> <!-- hena by linked styling bt3 sign up -->
     <link rel="stylesheet" href="assets/navbar_styles.css"> <!-- hena by linked el navbar-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -50,24 +67,28 @@ include('includes/Quizez.php');
         
         </h2>
             </div>
-        <div class="w-full px-8">
+
+        <form class="w-full px-8" method="POST">
             <?php
             while($row = $result->fetch_assoc()){
                 ?>
-                <a href="Quizez_questions.php?id=<?php echo $row['id']; ?>"><div class="py-2 my-2 px-4 bg-gray-200 rounded-md hover:bg-gray-300">
+                <div class="py-2 my-2 px-4 bg-gray-200 rounded-md hover:bg-gray-300">
                 <p class="text-xl">
-                    <?php echo $row["Title"]?>
+                    <?php echo $row["text"]?>
                 </p>
-                    </div></a>
+                <input type="hidden" name="question_id[]" value="<?php echo $row['Question-id']; ?>">
+                <textarea name="answer" id="" cols="30" rows="10"></textarea>
+                    </div>
                 <?php
             }
             ?>
-            
-                </div>
+            <button name="submit" class="py-2 px-8 text-white bg-green-500 hover:bg-green-700 active:bg-green-400">
+                Submit
+            </button>
+        </form>
        
 
 </div>
    
-
 
     </div>
