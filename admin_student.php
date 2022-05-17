@@ -21,7 +21,7 @@ include("includes/admin_inc.php") ;
       <span class="logo_name">CORRECTA</span>
     </div>
       <ul class="nav-links">
-        <li>
+      <li>
           <a href="Admin.php" class="active">
             <i class='bx bx-grid-alt' ></i>
             <span class="links_name">Admin Profile</span>
@@ -40,7 +40,7 @@ include("includes/admin_inc.php") ;
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="Admin_courses.php">
             <i class='bx bx-pie-chart-alt-2' ></i>
             <span class="links_name">Courses</span>
           </a>
@@ -52,12 +52,6 @@ include("includes/admin_inc.php") ;
           </a>
         </li>
         
-        <li>
-          <a href="#">
-            <i class='bx bx-cog' ></i>
-            <span class="links_name">Setting</span>
-          </a>
-        </li>
         <li class="log_out">
           <a href="#">
             <i class='bx bx-log-out'></i>
@@ -81,9 +75,8 @@ include("includes/admin_inc.php") ;
            <td>Gender</td>
            <td>Phone number</td>
            <td>Major</td>
-           <td>Day</td>
-           <td>Month</td>
-           <td>Year</td>
+           <td>Mjor ID</td>
+          
          </tr>
        </thead>
 
@@ -101,13 +94,35 @@ include("includes/admin_inc.php") ;
              <td>  <?php echo $row['gender']; ?> </td>
              <td>  <?php echo $row['phonenumber']; ?> </td>
              <td>  <?php echo $row['major']; ?> </td>
-             <td>  <?php echo $row['day']; ?> </td>
-             <td>  <?php echo $row['month']; ?> </td>
-             <td>  <?php echo $row['year']; ?> </td>
+             <td>  <?php echo $row['major_id']; ?> </td>
+             
            </tr>
 
 
+
+
+
+  
    <?php } ?>
+     <table class="one">
+       <thead>
+         <tr>
+           <td>ID</td>
+           <td>User Type</td>
+           
           
+         </tr>
+       </thead>
+
+       <tbody>
+
+         <?php foreach ($results_assoc3 as $row){ ?>
+           <tr>
+             <td><?php echo $row['id']; ?></td>
+             <td>  <?php echo $row['type']; ?> </td> 
+           </tr>
+
+             </tr>
+     <?php } ?> 
    </body>
  </html>

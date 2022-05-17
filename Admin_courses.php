@@ -21,7 +21,7 @@ include("includes/admin_inc.php") ;
       <span class="logo_name">CORRECTA</span>
     </div>
       <ul class="nav-links">
-      <li>
+        <li>
           <a href="Admin.php" class="active">
             <i class='bx bx-grid-alt' ></i>
             <span class="links_name">Admin Profile</span>
@@ -60,26 +60,33 @@ include("includes/admin_inc.php") ;
         </li>
       </ul>
   </div>
-<table class="one">
-             <h3> Contact-Us</h3>
-             <thead>
-               <tr>
-                 <td>ID</td>
-                 <td>Name</td>
-                 <td>Email </td>
-                 <td>Message</td>
-                 
 
-               </tr>
-             </thead>
+     <table>
+       <h3> Courses</h3>
+       <thead>
+         <tr>
+           <td>ID</td>
+           <td>Courses Name</td>
+           <td>Description</td>
+           <td>Faculty ID </td>
+           
+          
+         </tr>
+       </thead>
 
-             <tbody>
+       <tbody>
 
-               <?php foreach ($results_assoc1 as $row1){ ?>
-                 <tr>
-                   <td><?php echo $row1['id']; ?></td>
-                   <td>  <?php echo $row1['full_name']; ?> </td>
-                   <td>  <?php echo $row1['email']; ?> </td>
-                   <td>  <?php echo $row1['message']; ?> </td>
-                 </tr>
-         <?php } ?>
+         <?php foreach ($results_assoc2 as $row){ ?>
+           <tr>
+             <td><?php echo $row['id']; ?></td>
+             <td>  <?php echo $row['coursename']; ?> </td>
+             <td>  <?php echo $row['description']; ?> </td>
+             <td>  <?php echo $row['faculty_id']; ?> </td>
+             
+           </tr>
+
+
+   <?php } ?>
+          
+   </body>
+ </html>

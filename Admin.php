@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
 <html lang="en" dir="ltr">
+  <?php 
+  include("includes/admin_inc.php") ;
+  $faculties = 0;
+  $instructors = 0;
+  foreach ($results_assoc4 as $row){
+    $faculties = $faculties + 1;
+  } 
+ 
+  ?>
   <head>
     <meta charset="UTF-8">
     <!--<title> Responsiive Admin Dashboard | CodingLab </title>-->
@@ -18,8 +27,8 @@
       <span class="logo_name">CORRECTA</span>
     </div>
       <ul class="nav-links">
-        <li>
-          <a href="#" class="active">
+      <li>
+          <a href="Admin.php" class="active">
             <i class='bx bx-grid-alt' ></i>
             <span class="links_name">Admin Profile</span>
           </a>
@@ -37,7 +46,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="Admin_courses.php">
             <i class='bx bx-pie-chart-alt-2' ></i>
             <span class="links_name">Courses</span>
           </a>
@@ -48,6 +57,7 @@
             <span class="links_name">Messages</span>
           </a>
         </li>
+        
         <li class="log_out">
           <a href="#">
             <i class='bx bx-log-out'></i>
@@ -101,7 +111,7 @@
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Major/ Faculty</div>
-            <div class="number">8 Faculty</div>
+            <div class="number"><?php echo $faculties;?>
           </div>
           <i class='bx bxs-cart-download cart four' ></i>
         </div>

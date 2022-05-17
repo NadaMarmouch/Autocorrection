@@ -245,7 +245,7 @@ nav .profile-details i {
 .home-content .box .indicator i {
     height: 20px;
     width: 20px;
-    background: #8FDACB;
+    background: #6afa9d;
     line-height: 20px;
     text-align: center;
     border-radius: 50%;
@@ -270,7 +270,7 @@ nav .profile-details i {
     background: #cce5ff;
     line-height: 50px;
     text-align: center;
-    color: #66b0ff;
+    color: #6afa9d;
     border-radius: 12px;
     margin: -15px 0 0 6px;
 }
@@ -288,6 +288,7 @@ nav .profile-details i {
 .home-content .box .cart.four {
     color: #e05260;
     background: #f7d4d7;
+    margin-left: 125px;
 }
 
 .home-content .total-order {
@@ -582,7 +583,7 @@ table.one {
 
 tbody td {
     padding: 7px;
-    background-color: rgb(230, 254, 255)
+    background-color: rgb(226, 246, 221)
 }
 
 thead td {
