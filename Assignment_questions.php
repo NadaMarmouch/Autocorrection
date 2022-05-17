@@ -76,7 +76,7 @@ if(isset($_POST['submit'])){
                 <p class="text-xl">
                     <?php echo $row["text"]?>
                 </p>
-                <input type="hidden" name="question_id[]" value="<?php echo $row['Question-id']; ?>">
+                <input type="hidden" name="question_id[]" value="<?php echo $row['Questionid']; ?>">
                 <textarea name="answer[]" id="" cols="30" rows="10"></textarea>
                     </div>
                 <?php
