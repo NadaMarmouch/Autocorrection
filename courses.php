@@ -135,7 +135,7 @@ $result = $DB->query("SELECT c.* FROM courses c, user u WHERE u.id=$uid AND u.ma
             <div class="u-container-style u-custom-color-1 u-group u-radius-30 u-shape-round u-group-18">
               <div class="u-container-layout">
               <a href="coursesdetails.php">
-                <h2 class="u-text u-text-default u-text-10">Density</h2>
+                <h2 class="u-text u-text-default u-text-10">Dentistry</h2>
                 </a>
               </div>
             </div>
